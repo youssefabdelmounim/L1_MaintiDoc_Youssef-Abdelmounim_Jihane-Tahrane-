@@ -1,0 +1,1775 @@
+[
+  {
+    "image_id": "IMG-001",
+    "level": "schema_genere",
+    "file": "images/IMG-001_anatomie_carte_graphique.png",
+    "caption_fr": "Anatomie d'une carte graphique : équerre et sorties vidéo, ventilateurs, radiateur, connecteur d'alimentation, doigts dorés PCIe.",
+    "alt_text": "Anatomie d'une carte graphique : équerre et sorties vidéo, ventilateurs, radiateur, connecteur d'alimentation, doigts dorés PCIe.",
+    "keywords": "carte graphique,composants,anatomie,ventilateurs,connecteur",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-001",
+      "GPU-010"
+    ]
+  },
+  {
+    "image_id": "IMG-002",
+    "level": "schema_genere",
+    "file": "images/IMG-002_pcie_doigts_dores.png",
+    "caption_fr": "Doigts dorés PCIe x16 de la carte et slot de la carte mère : encoche de détrompage, verrou, rayure superficielle ou profonde.",
+    "alt_text": "Doigts dorés PCIe x16 de la carte et slot de la carte mère : encoche de détrompage, verrou, rayure superficielle ou profonde.",
+    "keywords": "pcie,doigts dorés,slot,rayure,contacts",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-003",
+      "GPU-018",
+      "GPU-059"
+    ]
+  },
+  {
+    "image_id": "IMG-003",
+    "level": "schema_genere",
+    "file": "images/IMG-003_connecteurs_alimentation.png",
+    "caption_fr": "Comparaison des connecteurs d'alimentation PCIe 6 broches (75 W), 8 broches (150 W) et 12V-2x6 (jusqu'à 600 W).",
+    "alt_text": "Comparaison des connecteurs d'alimentation PCIe 6 broches (75 W), 8 broches (150 W) et 12V-2x6 (jusqu'à 600 W).",
+    "keywords": "alimentation,6 broches,8 broches,12vhpwr,12v-2x6,watts",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-004",
+      "GPU-005",
+      "GPU-058"
+    ]
+  },
+  {
+    "image_id": "IMG-004",
+    "level": "schema_genere",
+    "file": "images/IMG-004_brochage_12v2x6.png",
+    "caption_fr": "Brochage du connecteur 12VHPWR / 12V-2x6 : 12 broches d'alimentation et 4 broches de signal SENSE0, SENSE1, CARD_PWR_STABLE, CARD_CBL_PRES#.",
+    "alt_text": "Brochage du connecteur 12VHPWR / 12V-2x6 : 12 broches d'alimentation et 4 broches de signal SENSE0, SENSE1, CARD_PWR_STABLE, CARD_CBL_PRES#.",
+    "keywords": "12vhpwr,12v-2x6,brochage,sense,sideband",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-005",
+      "GPU-025"
+    ]
+  },
+  {
+    "image_id": "IMG-005",
+    "level": "schema_genere",
+    "file": "images/IMG-005_ports_displayport_hdmi.png",
+    "caption_fr": "Formes des ports DisplayPort (coin biseauté) et HDMI (profil trapézoïdal).",
+    "alt_text": "Formes des ports DisplayPort (coin biseauté) et HDMI (profil trapézoïdal).",
+    "keywords": "displayport,hdmi,ports,sorties vidéo",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-008",
+      "GPU-056"
+    ]
+  },
+  {
+    "image_id": "IMG-006",
+    "level": "schema_genere",
+    "file": "images/IMG-006_plages_temperature.png",
+    "caption_fr": "Plages de température indicatives d'une carte graphique : repos, charge normale, à surveiller, critique.",
+    "alt_text": "Plages de température indicatives d'une carte graphique : repos, charge normale, à surveiller, critique.",
+    "keywords": "température,throttling,hotspot,plages",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-011"
+    ]
+  },
+  {
+    "image_id": "IMG-007",
+    "level": "schema_genere",
+    "file": "images/IMG-007_flux_air_boitier.png",
+    "caption_fr": "Flux d'air recommandé dans un boîtier : entrées d'air frais en façade, sorties d'air chaud à l'arrière et en haut.",
+    "alt_text": "Flux d'air recommandé dans un boîtier : entrées d'air frais en façade, sorties d'air chaud à l'arrière et en haut.",
+    "keywords": "flux d'air,boîtier,ventilation,refroidissement",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-015",
+      "GPU-014"
+    ]
+  },
+  {
+    "image_id": "IMG-008",
+    "level": "schema_genere",
+    "file": "images/IMG-008_affaissement_gpu_sag.png",
+    "caption_fr": "Carte affaissée (GPU sag) et carte soutenue par un support anti-affaissement.",
+    "alt_text": "Carte affaissée (GPU sag) et carte soutenue par un support anti-affaissement.",
+    "keywords": "sag,affaissement,support,carte penchée",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-016",
+      "GPU-059"
+    ]
+  },
+  {
+    "image_id": "IMG-009",
+    "level": "schema_genere",
+    "file": "images/IMG-009_galerie_artefacts.png",
+    "caption_fr": "Galerie simulée d'artefacts : points colorés, blocs, lignes horizontales, lignes verticales, zone corrompue, avec causes possibles.",
+    "alt_text": "Galerie simulée d'artefacts : points colorés, blocs, lignes horizontales, lignes verticales, zone corrompue, avec causes possibles.",
+    "keywords": "artefacts,points roses,magenta,lignes,blocs,vram",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-019",
+      "GPU-059"
+    ]
+  },
+  {
+    "image_id": "IMG-010",
+    "level": "schema_genere",
+    "file": "images/IMG-010_triage_incident_gpu.png",
+    "caption_fr": "Schéma de triage général d'un incident de carte graphique : sécurité, image/écran, logiciel, test croisé.",
+    "alt_text": "Schéma de triage général d'un incident de carte graphique : sécurité, image/écran, logiciel, test croisé.",
+    "keywords": "triage,diagnostic,arbre de décision",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-027",
+      "GPU-061"
+    ]
+  },
+  {
+    "image_id": "IMG-011",
+    "level": "schema_genere",
+    "file": "images/IMG-011_bande_passante_video.png",
+    "caption_fr": "Débit brut des liaisons vidéo : HDMI 2.0, DisplayPort 1.4a, HDMI 2.1, DisplayPort 2.1.",
+    "alt_text": "Débit brut des liaisons vidéo : HDMI 2.0, DisplayPort 1.4a, HDMI 2.1, DisplayPort 2.1.",
+    "keywords": "bande passante,hdmi,displayport,débit",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-009",
+      "GPU-056"
+    ]
+  },
+  {
+    "image_id": "IMG-012",
+    "level": "schema_genere",
+    "file": "images/IMG-012_familles_erreurs_gpu.png",
+    "caption_fr": "Familles de causes d'un incident GPU : matériel, alimentation, thermique, liaison et affichage, pilote et système, applications.",
+    "alt_text": "Familles de causes d'un incident GPU : matériel, alimentation, thermique, liaison et affichage, pilote et système, applications.",
+    "keywords": "causes,familles,erreurs,diagnostic",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-044",
+      "GPU-061",
+      "GPU-048"
+    ]
+  },
+  {
+    "image_id": "IMG-013",
+    "level": "schema_genere",
+    "file": "images/IMG-013_etats_connecteur_12v2x6.png",
+    "caption_fr": "Trois états d'un connecteur 12V-2x6 : normal, décoloration, fondu ou déformé.",
+    "alt_text": "Trois états d'un connecteur 12V-2x6 : normal, décoloration, fondu ou déformé.",
+    "keywords": "connecteur fondu,12v-2x6,gravité,brûlé,600w",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-006",
+      "GPU-059",
+      "GPU-058"
+    ]
+  },
+  {
+    "image_id": "PNL-A01",
+    "level": "panneau",
+    "file": "images/panels/PNL-A01.png",
+    "caption_fr": "Alimentation insuffisante ou instable — Bloc d'alimentation et câble PCIe jaune/noir ; légende : alimentation insuffisante ou instable. (illustration générée par IA ; vignette « Power Supply Issues »)",
+    "alt_text": "Alimentation insuffisante ou instable — Bloc d'alimentation et câble PCIe jaune/noir ; légende : alimentation insuffisante ou instable. (illustration générée par IA ; vignette « Power Supply Issues »)",
+    "keywords": "Power Supply Issues,Alimentation insuffisante ou instable,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-067"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Power Supply Issues",
+    "label_fr": "Alimentation insuffisante ou instable",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-067",
+      "GPU-058",
+      "GPU-007"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A02",
+    "level": "panneau",
+    "file": "images/panels/PNL-A02.png",
+    "caption_fr": "Composants brûlés (MOSFET ou condensateur) — Carte électronique avec zone noircie et composants carbonisés. (illustration générée par IA ; vignette « Burnt Components »)",
+    "alt_text": "Composants brûlés (MOSFET ou condensateur) — Carte électronique avec zone noircie et composants carbonisés. (illustration générée par IA ; vignette « Burnt Components »)",
+    "keywords": "Burnt Components,Composants brûlés (MOSFET ou condensateur),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Burnt Components",
+    "label_fr": "Composants brûlés (MOSFET ou condensateur)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-024",
+      "GPU-035"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-A03",
+    "level": "panneau",
+    "file": "images/panels/PNL-A03.png",
+    "caption_fr": "Court-circuit sur le PCB — Zone entourée en rouge sur la carte : composants en court-circuit. (illustration générée par IA ; vignette « Short Circuit »)",
+    "alt_text": "Court-circuit sur le PCB — Zone entourée en rouge sur la carte : composants en court-circuit. (illustration générée par IA ; vignette « Short Circuit »)",
+    "keywords": "Short Circuit,Court-circuit sur le PCB,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Short Circuit",
+    "label_fr": "Court-circuit sur le PCB",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-035",
+      "GPU-042"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-A04",
+    "level": "panneau",
+    "file": "images/panels/PNL-A04.png",
+    "caption_fr": "Surtension ou sous-tension du GPU — Relevé de tension GPU à 1,85 V (plage normale annoncée 0,95 à 1,10 V) : hors plage. Valeurs à confirmer sur la fiche du modèle. (illustration générée par IA ; vignette « Overvoltage / Undervoltage »)",
+    "alt_text": "Surtension ou sous-tension du GPU — Relevé de tension GPU à 1,85 V (plage normale annoncée 0,95 à 1,10 V) : hors plage. Valeurs à confirmer sur la fiche du modèle. (illustration générée par IA ; vignette « Overvoltage / Undervoltage »)",
+    "keywords": "Overvoltage / Undervoltage,Surtension ou sous-tension du GPU,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Overvoltage / Undervoltage",
+    "label_fr": "Surtension ou sous-tension du GPU",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-036",
+      "GPU-063"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A05",
+    "level": "panneau",
+    "file": "images/panels/PNL-A05.png",
+    "caption_fr": "Connecteur d'alimentation défectueux ou fondu — Connecteur PCIe à 8 broches avec plastique fondu et brûlé. (illustration générée par IA ; vignette « Power Connector Fault »)",
+    "alt_text": "Connecteur d'alimentation défectueux ou fondu — Connecteur PCIe à 8 broches avec plastique fondu et brûlé. (illustration générée par IA ; vignette « Power Connector Fault »)",
+    "keywords": "Power Connector Fault,Connecteur d'alimentation défectueux ou fondu,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-067"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Power Connector Fault",
+    "label_fr": "Connecteur d'alimentation défectueux ou fondu",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-067",
+      "GPU-006",
+      "GPU-005"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-A06",
+    "level": "panneau",
+    "file": "images/panels/PNL-A06.png",
+    "caption_fr": "Défaillance du VRM (condensateur gonflé) — Condensateurs et bobines du VRM ; un condensateur gonflé est signalé. (illustration générée par IA ; vignette « VRM Failure »)",
+    "alt_text": "Défaillance du VRM (condensateur gonflé) — Condensateurs et bobines du VRM ; un condensateur gonflé est signalé. (illustration générée par IA ; vignette « VRM Failure »)",
+    "keywords": "VRM Failure,Défaillance du VRM (condensateur gonflé),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "VRM Failure",
+    "label_fr": "Défaillance du VRM (condensateur gonflé)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-024"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-A07",
+    "level": "panneau",
+    "file": "images/panels/PNL-A07.png",
+    "caption_fr": "Bruit électrique (ondulation de l'alimentation) — Oscillogramme vert d'une tension avec ondulation : ripple/bruit de l'alimentation. (illustration générée par IA ; vignette « Electrical Noise »)",
+    "alt_text": "Bruit électrique (ondulation de l'alimentation) — Oscillogramme vert d'une tension avec ondulation : ripple/bruit de l'alimentation. (illustration générée par IA ; vignette « Electrical Noise »)",
+    "keywords": "Electrical Noise,Bruit électrique (ondulation de l'alimentation),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Electrical Noise",
+    "label_fr": "Bruit électrique (ondulation de l'alimentation)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-057",
+      "GPU-058"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A08",
+    "level": "panneau",
+    "file": "images/panels/PNL-A08.png",
+    "caption_fr": "GPU qui ne reçoit pas d'alimentation (voyant éteint) — Carte graphique avec voyant d'alimentation éteint ; légende : pas de voyant d'alimentation. (illustration générée par IA ; vignette « GPU Not Receiving Power »)",
+    "alt_text": "GPU qui ne reçoit pas d'alimentation (voyant éteint) — Carte graphique avec voyant d'alimentation éteint ; légende : pas de voyant d'alimentation. (illustration générée par IA ; vignette « GPU Not Receiving Power »)",
+    "keywords": "GPU Not Receiving Power,GPU qui ne reçoit pas d'alimentation (voyant éteint),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-067"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "GPU Not Receiving Power",
+    "label_fr": "GPU qui ne reçoit pas d'alimentation (voyant éteint)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-067",
+      "GPU-025",
+      "GPU-004"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A09",
+    "level": "panneau",
+    "file": "images/panels/PNL-A09.png",
+    "caption_fr": "Problème d'alimentation par le slot PCIe — Slot PCIe de la carte mère ; légende : problème d'alimentation du slot. (illustration générée par IA ; vignette « PCIe Power Delivery Issue »)",
+    "alt_text": "Problème d'alimentation par le slot PCIe — Slot PCIe de la carte mère ; légende : problème d'alimentation du slot. (illustration générée par IA ; vignette « PCIe Power Delivery Issue »)",
+    "keywords": "PCIe Power Delivery Issue,Problème d'alimentation par le slot PCIe,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-067"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "PCIe Power Delivery Issue",
+    "label_fr": "Problème d'alimentation par le slot PCIe",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-067",
+      "GPU-003",
+      "GPU-018"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A10",
+    "level": "panneau",
+    "file": "images/panels/PNL-A10.png",
+    "caption_fr": "Panne électrique du ventilateur — Ventilateur de carte graphique qui ne tourne pas : défaut électrique. (illustration générée par IA ; vignette « Fan Electrical Failure »)",
+    "alt_text": "Panne électrique du ventilateur — Ventilateur de carte graphique qui ne tourne pas : défaut électrique. (illustration générée par IA ; vignette « Fan Electrical Failure »)",
+    "keywords": "Fan Electrical Failure,Panne électrique du ventilateur,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-068"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Fan Electrical Failure",
+    "label_fr": "Panne électrique du ventilateur",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-068",
+      "GPU-010"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A11",
+    "level": "panneau",
+    "file": "images/panels/PNL-A11.png",
+    "caption_fr": "Erreur de capteur thermique (120 °C affichés) — Affichage de 120 °C (critique) ; légende : défaut de capteur. Une valeur aberrante peut venir du capteur ou de l'outil de suivi. (illustration générée par IA ; vignette « Thermal Sensor Error »)",
+    "alt_text": "Erreur de capteur thermique (120 °C affichés) — Affichage de 120 °C (critique) ; légende : défaut de capteur. Une valeur aberrante peut venir du capteur ou de l'outil de suivi. (illustration générée par IA ; vignette « Thermal Sensor Error »)",
+    "keywords": "Thermal Sensor Error,Erreur de capteur thermique (120 °C affichés),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-068"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Thermal Sensor Error",
+    "label_fr": "Erreur de capteur thermique (120 °C affichés)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-068",
+      "GPU-011"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-A12",
+    "level": "panneau",
+    "file": "images/panels/PNL-A12.png",
+    "caption_fr": "Pistes ou PCB endommagés — Gros plan d'un PCB avec pistes endommagées. (illustration générée par IA ; vignette « Traces / PCB Damage »)",
+    "alt_text": "Pistes ou PCB endommagés — Gros plan d'un PCB avec pistes endommagées. (illustration générée par IA ; vignette « Traces / PCB Damage »)",
+    "keywords": "Traces / PCB Damage,Pistes ou PCB endommagés,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-066"
+    ],
+    "source_infographic": "SRC-A",
+    "label_en": "Traces / PCB Damage",
+    "label_fr": "Pistes ou PCB endommagés",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-066",
+      "GPU-070",
+      "GPU-042"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-B01",
+    "level": "panneau",
+    "file": "images/panels/PNL-B01.png",
+    "caption_fr": "Pas de signal (portable) — Portable avec écran noir et message No Signal. (illustration générée par IA ; vignette « No Signal »)",
+    "alt_text": "Pas de signal (portable) — Portable avec écran noir et message No Signal. (illustration générée par IA ; vignette « No Signal »)",
+    "keywords": "No Signal,Pas de signal (portable),affichage",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "No Signal",
+    "label_fr": "Pas de signal (portable)",
+    "domain": "affichage",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-027",
+      "GPU-062"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B02",
+    "level": "panneau",
+    "file": "images/panels/PNL-B02.png",
+    "caption_fr": "GPU non détecté (message NVIDIA) — Fenêtre indiquant que le GPU NVIDIA GeForce n'est pas détecté et demande de vérifier l'installation. (illustration générée par IA ; vignette « GPU Not Detected »)",
+    "alt_text": "GPU non détecté (message NVIDIA) — Fenêtre indiquant que le GPU NVIDIA GeForce n'est pas détecté et demande de vérifier l'installation. (illustration générée par IA ; vignette « GPU Not Detected »)",
+    "keywords": "GPU Not Detected,GPU non détecté (message NVIDIA),logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "GPU Not Detected",
+    "label_fr": "GPU non détecté (message NVIDIA)",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-045",
+      "GPU-049"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B03",
+    "level": "panneau",
+    "file": "images/panels/PNL-B03.png",
+    "caption_fr": "Surchauffe et poussière (92 °C) — Carte graphique empoussiérée, thermomètre à 92 °C. (illustration générée par IA ; vignette « Overheating / Dust »)",
+    "alt_text": "Surchauffe et poussière (92 °C) — Carte graphique empoussiérée, thermomètre à 92 °C. (illustration générée par IA ; vignette « Overheating / Dust »)",
+    "keywords": "Overheating / Dust,Surchauffe et poussière (92 °C),physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-069"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Overheating / Dust",
+    "label_fr": "Surchauffe et poussière (92 °C)",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-069",
+      "GPU-010",
+      "GPU-015"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B04",
+    "level": "panneau",
+    "file": "images/panels/PNL-B04.png",
+    "caption_fr": "Artefacts graphiques — Écran avec bandes horizontales colorées. (illustration générée par IA ; vignette « Graphics Artifacts »)",
+    "alt_text": "Artefacts graphiques — Écran avec bandes horizontales colorées. (illustration générée par IA ; vignette « Graphics Artifacts »)",
+    "keywords": "Graphics Artifacts,Artefacts graphiques,affichage",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-072"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Graphics Artifacts",
+    "label_fr": "Artefacts graphiques",
+    "domain": "affichage",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-072",
+      "GPU-019",
+      "GPU-059"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B05",
+    "level": "panneau",
+    "file": "images/panels/PNL-B05.png",
+    "caption_fr": "Écran bleu (BSOD) — Écran bleu Windows avec smiley triste et code QR. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+    "alt_text": "Écran bleu (BSOD) — Écran bleu Windows avec smiley triste et code QR. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+    "keywords": "Blue Screen (BSOD),Écran bleu (BSOD),logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-074"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Blue Screen (BSOD)",
+    "label_fr": "Écran bleu (BSOD)",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-074",
+      "GPU-048"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B06",
+    "level": "panneau",
+    "file": "images/panels/PNL-B06.png",
+    "caption_fr": "Erreur de pilote : incompatible avec cette version de Windows — Message indiquant que le pilote NVIDIA n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « Driver Error »)",
+    "alt_text": "Erreur de pilote : incompatible avec cette version de Windows — Message indiquant que le pilote NVIDIA n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « Driver Error »)",
+    "keywords": "Driver Error,Erreur de pilote : incompatible avec cette version de Windows,logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Driver Error",
+    "label_fr": "Erreur de pilote : incompatible avec cette version de Windows",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-020"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B07",
+    "level": "panneau",
+    "file": "images/panels/PNL-B07.png",
+    "caption_fr": "GPU inutilisé dans les jeux (0 %) — Moniteur de ressources : utilisation GPU 0 % et mémoire 0 Mo. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+    "alt_text": "GPU inutilisé dans les jeux (0 %) — Moniteur de ressources : utilisation GPU 0 % et mémoire 0 Mo. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+    "keywords": "GPU Not Working in Games,GPU inutilisé dans les jeux (0 %),logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-075"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "GPU Not Working in Games",
+    "label_fr": "GPU inutilisé dans les jeux (0 %)",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-075",
+      "GPU-049",
+      "GPU-062"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B08",
+    "level": "panneau",
+    "file": "images/panels/PNL-B08.png",
+    "caption_fr": "Problème d'alimentation (connecteurs PCIe) — Deux connecteurs PCIe à 6/8 broches avec câbles jaunes et noirs. (illustration générée par IA ; vignette « Power Issue »)",
+    "alt_text": "Problème d'alimentation (connecteurs PCIe) — Deux connecteurs PCIe à 6/8 broches avec câbles jaunes et noirs. (illustration générée par IA ; vignette « Power Issue »)",
+    "keywords": "Power Issue,Problème d'alimentation (connecteurs PCIe),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-067"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Power Issue",
+    "label_fr": "Problème d'alimentation (connecteurs PCIe)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-067",
+      "GPU-004"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B09",
+    "level": "panneau",
+    "file": "images/panels/PNL-B09.png",
+    "caption_fr": "Ventilateur à l'arrêt — Ventilateurs de carte graphique avec icône de haut-parleur barré. (illustration générée par IA ; vignette « Fan Not Spinning »)",
+    "alt_text": "Ventilateur à l'arrêt — Ventilateurs de carte graphique avec icône de haut-parleur barré. (illustration générée par IA ; vignette « Fan Not Spinning »)",
+    "keywords": "Fan Not Spinning,Ventilateur à l'arrêt,physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-068"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Fan Not Spinning",
+    "label_fr": "Ventilateur à l'arrêt",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-068",
+      "GPU-010"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B10",
+    "level": "panneau",
+    "file": "images/panels/PNL-B10.png",
+    "caption_fr": "Gestionnaire de périphériques : alerte sur la carte — Gestionnaire de périphériques : NVIDIA GeForce RTX 3060 avec triangle d'avertissement. (illustration générée par IA ; vignette « Device Manager »)",
+    "alt_text": "Gestionnaire de périphériques : alerte sur la carte — Gestionnaire de périphériques : NVIDIA GeForce RTX 3060 avec triangle d'avertissement. (illustration générée par IA ; vignette « Device Manager »)",
+    "keywords": "Device Manager,Gestionnaire de périphériques : alerte sur la carte,logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Device Manager",
+    "label_fr": "Gestionnaire de périphériques : alerte sur la carte",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-045"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B11",
+    "level": "panneau",
+    "file": "images/panels/PNL-B11.png",
+    "caption_fr": "FPS bas et performances faibles — Jeu à 15 images par seconde. (illustration générée par IA ; vignette « Low FPS / Poor Performance »)",
+    "alt_text": "FPS bas et performances faibles — Jeu à 15 images par seconde. (illustration générée par IA ; vignette « Low FPS / Poor Performance »)",
+    "keywords": "Low FPS / Poor Performance,FPS bas et performances faibles,logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-075"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Low FPS / Poor Performance",
+    "label_fr": "FPS bas et performances faibles",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-075",
+      "GPU-011",
+      "GPU-036"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B12",
+    "level": "panneau",
+    "file": "images/panels/PNL-B12.png",
+    "caption_fr": "Problème de pâte thermique — Puce de GPU avec pâte thermique visible. (illustration générée par IA ; vignette « Thermal Paste Issue »)",
+    "alt_text": "Problème de pâte thermique — Puce de GPU avec pâte thermique visible. (illustration générée par IA ; vignette « Thermal Paste Issue »)",
+    "keywords": "Thermal Paste Issue,Problème de pâte thermique,physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-069"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Thermal Paste Issue",
+    "label_fr": "Problème de pâte thermique",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-069",
+      "GPU-013"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B13",
+    "level": "panneau",
+    "file": "images/panels/PNL-B13.png",
+    "caption_fr": "Réglages du BIOS (affichage principal, iGPU multi-écran) — Écran du BIOS : Primary Display [Auto] et iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « BIOS Settings »)",
+    "alt_text": "Réglages du BIOS (affichage principal, iGPU multi-écran) — Écran du BIOS : Primary Display [Auto] et iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « BIOS Settings »)",
+    "keywords": "BIOS Settings,Réglages du BIOS (affichage principal, iGPU multi-écran),firmware_bios",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "BIOS Settings",
+    "label_fr": "Réglages du BIOS (affichage principal, iGPU multi-écran)",
+    "domain": "firmware_bios",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-060"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-B14",
+    "level": "panneau",
+    "file": "images/panels/PNL-B14.png",
+    "caption_fr": "Échec d'installation du paquet — Message d'échec : le paquet d'installation n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+    "alt_text": "Échec d'installation du paquet — Message d'échec : le paquet d'installation n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+    "keywords": "Installation Error,Échec d'installation du paquet,logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Installation Error",
+    "label_fr": "Échec d'installation du paquet",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-050",
+      "GPU-020"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-B15",
+    "level": "panneau",
+    "file": "images/panels/PNL-B15.png",
+    "caption_fr": "Solution : nettoyer et vérifier — Carte graphique propre avec coche verte. (illustration générée par IA ; vignette « Solution: Clean & Check »)",
+    "alt_text": "Solution : nettoyer et vérifier — Carte graphique propre avec coche verte. (illustration générée par IA ; vignette « Solution: Clean & Check »)",
+    "keywords": "Solution: Clean & Check,Solution : nettoyer et vérifier,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "Solution: Clean & Check",
+    "label_fr": "Solution : nettoyer et vérifier",
+    "domain": "solution",
+    "agent_autonomy": "solution_illustree",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-078",
+      "GPU-010"
+    ],
+    "agent_response_mode": "Étape de solution illustrée : l'agent l'explique et la fait vérifier par des mesures."
+  },
+  {
+    "image_id": "PNL-B16",
+    "level": "panneau",
+    "file": "images/panels/PNL-B16.png",
+    "caption_fr": "Réponse de l'agent IA (problème corrigé) — Robot assistant avec bulle « Problem Fixed ». Exemple d'interface : une correction doit être vérifiée par des mesures, pas seulement annoncée. (illustration générée par IA ; vignette « AI Agent Response »)",
+    "alt_text": "Réponse de l'agent IA (problème corrigé) — Robot assistant avec bulle « Problem Fixed ». Exemple d'interface : une correction doit être vérifiée par des mesures, pas seulement annoncée. (illustration générée par IA ; vignette « AI Agent Response »)",
+    "keywords": "AI Agent Response,Réponse de l'agent IA (problème corrigé),agent",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-063"
+    ],
+    "source_infographic": "SRC-B",
+    "label_en": "AI Agent Response",
+    "label_fr": "Réponse de l'agent IA (problème corrigé)",
+    "domain": "agent",
+    "agent_autonomy": "interface_agent",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-063"
+    ],
+    "agent_response_mode": "Exemple d'interface de l'agent : illustration, non une preuve de résolution."
+  },
+  {
+    "image_id": "PNL-C01",
+    "level": "panneau",
+    "file": "images/panels/PNL-C01.png",
+    "caption_fr": "Corruption de la mémoire VRAM — Résultat de test mémoire : erreurs VRAM détectées, valeur attendue différente de la valeur lue. (illustration générée par IA ; vignette « VRAM Memory Corruption »)",
+    "alt_text": "Corruption de la mémoire VRAM — Résultat de test mémoire : erreurs VRAM détectées, valeur attendue différente de la valeur lue. (illustration générée par IA ; vignette « VRAM Memory Corruption »)",
+    "keywords": "VRAM Memory Corruption,Corruption de la mémoire VRAM,physique_memoire",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-070"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "VRAM Memory Corruption",
+    "label_fr": "Corruption de la mémoire VRAM",
+    "domain": "physique_memoire",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-070",
+      "GPU-023",
+      "GPU-022"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C02",
+    "level": "panneau",
+    "file": "images/panels/PNL-C02.png",
+    "caption_fr": "Dommage physique du PCB (composants brûlés) — Gros plan d'un PCB avec zone brûlée. (illustration générée par IA ; vignette « GPU PCB Physical Damage »)",
+    "alt_text": "Dommage physique du PCB (composants brûlés) — Gros plan d'un PCB avec zone brûlée. (illustration générée par IA ; vignette « GPU PCB Physical Damage »)",
+    "keywords": "GPU PCB Physical Damage,Dommage physique du PCB (composants brûlés),physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-070"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "GPU PCB Physical Damage",
+    "label_fr": "Dommage physique du PCB (composants brûlés)",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-070",
+      "GPU-066"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C03",
+    "level": "panneau",
+    "file": "images/panels/PNL-C03.png",
+    "caption_fr": "Dégât des liquides et corrosion — Circuit avec dépôts de corrosion verts/bleus. (illustration générée par IA ; vignette « Liquid Damage & Corrosion »)",
+    "alt_text": "Dégât des liquides et corrosion — Circuit avec dépôts de corrosion verts/bleus. (illustration générée par IA ; vignette « Liquid Damage & Corrosion »)",
+    "keywords": "Liquid Damage & Corrosion,Dégât des liquides et corrosion,physique_chimique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-070"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Liquid Damage & Corrosion",
+    "label_fr": "Dégât des liquides et corrosion",
+    "domain": "physique_chimique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-070",
+      "GPU-014",
+      "GPU-035"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C04",
+    "level": "panneau",
+    "file": "images/panels/PNL-C04.png",
+    "caption_fr": "Slot PCIe endommagé — Slot PCIe avec verrou et contacts abîmés. (illustration générée par IA ; vignette « PCIe Slot Damage »)",
+    "alt_text": "Slot PCIe endommagé — Slot PCIe avec verrou et contacts abîmés. (illustration générée par IA ; vignette « PCIe Slot Damage »)",
+    "keywords": "PCIe Slot Damage,Slot PCIe endommagé,physique_mecanique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-070"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "PCIe Slot Damage",
+    "label_fr": "Slot PCIe endommagé",
+    "domain": "physique_mecanique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-070",
+      "GPU-018",
+      "GPU-016"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C05",
+    "level": "panneau",
+    "file": "images/panels/PNL-C05.png",
+    "caption_fr": "Limite de puissance et fréquences instables — Relevé : GPU 210 MHz, mémoire 405 MHz, limite de puissance 57 % : bridage de puissance. (illustration générée par IA ; vignette « Power Limit & Unstable Clocks »)",
+    "alt_text": "Limite de puissance et fréquences instables — Relevé : GPU 210 MHz, mémoire 405 MHz, limite de puissance 57 % : bridage de puissance. (illustration générée par IA ; vignette « Power Limit & Unstable Clocks »)",
+    "keywords": "Power Limit & Unstable Clocks,Limite de puissance et fréquences instables,logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-075"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Power Limit & Unstable Clocks",
+    "label_fr": "Limite de puissance et fréquences instables",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-075",
+      "GPU-036",
+      "GPU-058"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-C06",
+    "level": "panneau",
+    "file": "images/panels/PNL-C06.png",
+    "caption_fr": "Erreur d'API (DirectX) — Message DirectX : erreur irrécupérable. (illustration générée par IA ; vignette « API Errors »)",
+    "alt_text": "Erreur d'API (DirectX) — Message DirectX : erreur irrécupérable. (illustration générée par IA ; vignette « API Errors »)",
+    "keywords": "API Errors,Erreur d'API (DirectX),logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-074"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "API Errors",
+    "label_fr": "Erreur d'API (DirectX)",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-074",
+      "GPU-055"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-C07",
+    "level": "panneau",
+    "file": "images/panels/PNL-C07.png",
+    "caption_fr": "Problèmes de GPU externe Thunderbolt — Câble Thunderbolt et message : périphérique Thunderbolt non reconnu. (illustration générée par IA ; vignette « eGPU Thunderbolt Issues »)",
+    "alt_text": "Problèmes de GPU externe Thunderbolt — Câble Thunderbolt et message : périphérique Thunderbolt non reconnu. (illustration générée par IA ; vignette « eGPU Thunderbolt Issues »)",
+    "keywords": "eGPU Thunderbolt Issues,Problèmes de GPU externe Thunderbolt,physique_liaison",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-077"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "eGPU Thunderbolt Issues",
+    "label_fr": "Problèmes de GPU externe Thunderbolt",
+    "domain": "physique_liaison",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "portable",
+    "related_documents": [
+      "GPU-077"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-C08",
+    "level": "panneau",
+    "file": "images/panels/PNL-C08.png",
+    "caption_fr": "Scintillement d'écran et HDR — Moniteur avec bandes de scintillement. (illustration générée par IA ; vignette « Display Flickering & HDR »)",
+    "alt_text": "Scintillement d'écran et HDR — Moniteur avec bandes de scintillement. (illustration générée par IA ; vignette « Display Flickering & HDR »)",
+    "keywords": "Display Flickering & HDR,Scintillement d'écran et HDR,affichage",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-072"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Display Flickering & HDR",
+    "label_fr": "Scintillement d'écran et HDR",
+    "domain": "affichage",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-072",
+      "GPU-056"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-C09",
+    "level": "panneau",
+    "file": "images/panels/PNL-C09.png",
+    "caption_fr": "Corruption du firmware (VBIOS) du GPU — Message : le firmware du GPU est corrompu, mettre à jour le VBIOS. (illustration générée par IA ; vignette « GPU Firmware Corruption »)",
+    "alt_text": "Corruption du firmware (VBIOS) du GPU — Message : le firmware du GPU est corrompu, mettre à jour le VBIOS. (illustration générée par IA ; vignette « GPU Firmware Corruption »)",
+    "keywords": "GPU Firmware Corruption,Corruption du firmware (VBIOS) du GPU,firmware_bios",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-076"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "GPU Firmware Corruption",
+    "label_fr": "Corruption du firmware (VBIOS) du GPU",
+    "domain": "firmware_bios",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-076",
+      "GPU-038"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C10",
+    "level": "panneau",
+    "file": "images/panels/PNL-C10.png",
+    "caption_fr": "Échec de flash du BIOS de la carte — Utilitaire de mise à jour : échec avec le code 0x0003. (illustration générée par IA ; vignette « BIOS Flashing Failure »)",
+    "alt_text": "Échec de flash du BIOS de la carte — Utilitaire de mise à jour : échec avec le code 0x0003. (illustration générée par IA ; vignette « BIOS Flashing Failure »)",
+    "keywords": "BIOS Flashing Failure,Échec de flash du BIOS de la carte,firmware_bios",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-076"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "BIOS Flashing Failure",
+    "label_fr": "Échec de flash du BIOS de la carte",
+    "domain": "firmware_bios",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-076",
+      "GPU-038"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C11",
+    "level": "panneau",
+    "file": "images/panels/PNL-C11.png",
+    "caption_fr": "Sifflement des bobines et bruit — Ventilateur et ondes sonores rouges : sifflement. (illustration générée par IA ; vignette « Coil Whine & Noise »)",
+    "alt_text": "Sifflement des bobines et bruit — Ventilateur et ondes sonores rouges : sifflement. (illustration générée par IA ; vignette « Coil Whine & Noise »)",
+    "keywords": "Coil Whine & Noise,Sifflement des bobines et bruit,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-068"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Coil Whine & Noise",
+    "label_fr": "Sifflement des bobines et bruit",
+    "domain": "physique_electrique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-068",
+      "GPU-057"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-C12",
+    "level": "panneau",
+    "file": "images/panels/PNL-C12.png",
+    "caption_fr": "Défaillance BGA du GPU de portable — Puce BGA soudée sur la carte mère d'un portable. (illustration générée par IA ; vignette « Laptop GPU BGA Failure »)",
+    "alt_text": "Défaillance BGA du GPU de portable — Puce BGA soudée sur la carte mère d'un portable. (illustration générée par IA ; vignette « Laptop GPU BGA Failure »)",
+    "keywords": "Laptop GPU BGA Failure,Défaillance BGA du GPU de portable,physique_electrique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-070"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Laptop GPU BGA Failure",
+    "label_fr": "Défaillance BGA du GPU de portable",
+    "domain": "physique_electrique",
+    "agent_autonomy": "escalade_atelier",
+    "platform": "portable",
+    "related_documents": [
+      "GPU-070",
+      "GPU-034"
+    ],
+    "agent_response_mode": "Dommage physique : mise en sécurité, explication, dossier et ticket ; réparation par un atelier habilité ou RMA."
+  },
+  {
+    "image_id": "PNL-C13",
+    "level": "panneau",
+    "file": "images/panels/PNL-C13.png",
+    "caption_fr": "Roulement de ventilateur défaillant — Ventilateur avec roulement usé : rotation irrégulière. (illustration générée par IA ; vignette « GPU Fan Bearing Failure »)",
+    "alt_text": "Roulement de ventilateur défaillant — Ventilateur avec roulement usé : rotation irrégulière. (illustration générée par IA ; vignette « GPU Fan Bearing Failure »)",
+    "keywords": "GPU Fan Bearing Failure,Roulement de ventilateur défaillant,physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-068"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "GPU Fan Bearing Failure",
+    "label_fr": "Roulement de ventilateur défaillant",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-068",
+      "GPU-010",
+      "GPU-012"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-C14",
+    "level": "panneau",
+    "file": "images/panels/PNL-C14.png",
+    "caption_fr": "Bridage thermique (92 °C) — Température 92 °C et fréquence réduite (throttle actif). (illustration générée par IA ; vignette « GPU Thermal Throttling »)",
+    "alt_text": "Bridage thermique (92 °C) — Température 92 °C et fréquence réduite (throttle actif). (illustration générée par IA ; vignette « GPU Thermal Throttling »)",
+    "keywords": "GPU Thermal Throttling,Bridage thermique (92 °C),physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-069"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "GPU Thermal Throttling",
+    "label_fr": "Bridage thermique (92 °C)",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-069",
+      "GPU-011"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-C15",
+    "level": "panneau",
+    "file": "images/panels/PNL-C15.png",
+    "caption_fr": "Conflit de pilotes (NVIDIA et AMD) — Gestionnaire de périphériques : RTX 4070 avec avertissement de pilotes en conflit, et Radeon RX 7800 XT. (illustration générée par IA ; vignette « Driver Conflicts »)",
+    "alt_text": "Conflit de pilotes (NVIDIA et AMD) — Gestionnaire de périphériques : RTX 4070 avec avertissement de pilotes en conflit, et Radeon RX 7800 XT. (illustration générée par IA ; vignette « Driver Conflicts »)",
+    "keywords": "Driver Conflicts,Conflit de pilotes (NVIDIA et AMD),logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Driver Conflicts",
+    "label_fr": "Conflit de pilotes (NVIDIA et AMD)",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-062"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-C16",
+    "level": "panneau",
+    "file": "images/panels/PNL-C16.png",
+    "caption_fr": "Accélération matérielle désactivée ou indisponible — Réglage d'accélération matérielle sur Off avec message d'indisponibilité. (illustration générée par IA ; vignette « Hardware Acceleration »)",
+    "alt_text": "Accélération matérielle désactivée ou indisponible — Réglage d'accélération matérielle sur Off avec message d'indisponibilité. (illustration générée par IA ; vignette « Hardware Acceleration »)",
+    "keywords": "Hardware Acceleration,Accélération matérielle désactivée ou indisponible,logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-075"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "Hardware Acceleration",
+    "label_fr": "Accélération matérielle désactivée ou indisponible",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-075",
+      "GPU-049"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-C17",
+    "level": "panneau",
+    "file": "images/panels/PNL-C17.png",
+    "caption_fr": "Plantage d'application (Unreal Engine 5) — Message de plantage inattendu d'une application Unreal Engine 5. (illustration générée par IA ; vignette « GPU Application Crashes »)",
+    "alt_text": "Plantage d'application (Unreal Engine 5) — Message de plantage inattendu d'une application Unreal Engine 5. (illustration générée par IA ; vignette « GPU Application Crashes »)",
+    "keywords": "GPU Application Crashes,Plantage d'application (Unreal Engine 5),logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-074"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "GPU Application Crashes",
+    "label_fr": "Plantage d'application (Unreal Engine 5)",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-074",
+      "GPU-055"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-C18",
+    "level": "panneau",
+    "file": "images/panels/PNL-C18.png",
+    "caption_fr": "Compatibilité du système d'exploitation — Message : ce GPU n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « OS Compatibility »)",
+    "alt_text": "Compatibilité du système d'exploitation — Message : ce GPU n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « OS Compatibility »)",
+    "keywords": "OS Compatibility,Compatibilité du système d'exploitation,logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-C",
+    "label_en": "OS Compatibility",
+    "label_fr": "Compatibilité du système d'exploitation",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-020",
+      "GPU-021"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D01",
+    "level": "panneau",
+    "file": "images/panels/PNL-D01.png",
+    "caption_fr": "Pas de signal / écran noir (moniteur) — Moniteur noir avec triangle d'alerte et message No Signal. (illustration générée par IA ; vignette « No Signal / Black Screen »)",
+    "alt_text": "Pas de signal / écran noir (moniteur) — Moniteur noir avec triangle d'alerte et message No Signal. (illustration générée par IA ; vignette « No Signal / Black Screen »)",
+    "keywords": "No Signal / Black Screen,Pas de signal / écran noir (moniteur),affichage",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "No Signal / Black Screen",
+    "label_fr": "Pas de signal / écran noir (moniteur)",
+    "domain": "affichage",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-071",
+      "GPU-027",
+      "GPU-056"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D02",
+    "level": "panneau",
+    "file": "images/panels/PNL-D02.png",
+    "caption_fr": "GPU non détecté dans le Gestionnaire de périphériques — Gestionnaire de périphériques : aucun GPU NVIDIA détecté. (illustration générée par IA ; vignette « GPU Not Detected »)",
+    "alt_text": "GPU non détecté dans le Gestionnaire de périphériques — Gestionnaire de périphériques : aucun GPU NVIDIA détecté. (illustration générée par IA ; vignette « GPU Not Detected »)",
+    "keywords": "GPU Not Detected,GPU non détecté dans le Gestionnaire de périphériques,logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "GPU Not Detected",
+    "label_fr": "GPU non détecté dans le Gestionnaire de périphériques",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-045",
+      "GPU-060"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D03",
+    "level": "panneau",
+    "file": "images/panels/PNL-D03.png",
+    "caption_fr": "Surchauffe du GPU (95 °C) — Carte graphique et thermomètre à 95 °C. (illustration générée par IA ; vignette « GPU Overheating »)",
+    "alt_text": "Surchauffe du GPU (95 °C) — Carte graphique et thermomètre à 95 °C. (illustration générée par IA ; vignette « GPU Overheating »)",
+    "keywords": "GPU Overheating,Surchauffe du GPU (95 °C),physique_thermique",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-069"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "GPU Overheating",
+    "label_fr": "Surchauffe du GPU (95 °C)",
+    "domain": "physique_thermique",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-069",
+      "GPU-011"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D04",
+    "level": "panneau",
+    "file": "images/panels/PNL-D04.png",
+    "caption_fr": "Artefacts dans un jeu — Jeu avec blocs et pixels colorés corrompus. (illustration générée par IA ; vignette « Artifact / Glitching »)",
+    "alt_text": "Artefacts dans un jeu — Jeu avec blocs et pixels colorés corrompus. (illustration générée par IA ; vignette « Artifact / Glitching »)",
+    "keywords": "Artifact / Glitching,Artefacts dans un jeu,affichage",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-072"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Artifact / Glitching",
+    "label_fr": "Artefacts dans un jeu",
+    "domain": "affichage",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-072",
+      "GPU-019",
+      "GPU-059"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D05",
+    "level": "panneau",
+    "file": "images/panels/PNL-D05.png",
+    "caption_fr": "Pilote AMD : délai d'expiration — AMD Software : Driver Timeout, le pilote a cessé de répondre. (illustration générée par IA ; vignette « Driver Issue »)",
+    "alt_text": "Pilote AMD : délai d'expiration — AMD Software : Driver Timeout, le pilote a cessé de répondre. (illustration générée par IA ; vignette « Driver Issue »)",
+    "keywords": "Driver Issue,Pilote AMD : délai d'expiration,logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-074"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Driver Issue",
+    "label_fr": "Pilote AMD : délai d'expiration",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-047",
+      "GPU-073",
+      "GPU-074"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D06",
+    "level": "panneau",
+    "file": "images/panels/PNL-D06.png",
+    "caption_fr": "Mise à jour du pilote disponible — Notification NVIDIA : un nouveau pilote est disponible. (illustration générée par IA ; vignette « Update Needed »)",
+    "alt_text": "Mise à jour du pilote disponible — Notification NVIDIA : un nouveau pilote est disponible. (illustration générée par IA ; vignette « Update Needed »)",
+    "keywords": "Update Needed,Mise à jour du pilote disponible,logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Update Needed",
+    "label_fr": "Mise à jour du pilote disponible",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-020"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D07",
+    "level": "panneau",
+    "file": "images/panels/PNL-D07.png",
+    "caption_fr": "Échec d'installation du pilote — Message : le pilote n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+    "alt_text": "Échec d'installation du pilote — Message : le pilote n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+    "keywords": "Installation Error,Échec d'installation du pilote,logiciel_pilote",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Installation Error",
+    "label_fr": "Échec d'installation du pilote",
+    "domain": "logiciel_pilote",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-050",
+      "GPU-020"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D08",
+    "level": "panneau",
+    "file": "images/panels/PNL-D08.png",
+    "caption_fr": "Écran bleu VIDEO_TDR_FAILURE — Écran bleu avec le code d'arrêt VIDEO_TDR_FAILURE. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+    "alt_text": "Écran bleu VIDEO_TDR_FAILURE — Écran bleu avec le code d'arrêt VIDEO_TDR_FAILURE. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+    "keywords": "Blue Screen (BSOD),Écran bleu VIDEO_TDR_FAILURE,logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-074"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Blue Screen (BSOD)",
+    "label_fr": "Écran bleu VIDEO_TDR_FAILURE",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-074",
+      "GPU-048",
+      "GPU-046"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D09",
+    "level": "panneau",
+    "file": "images/panels/PNL-D09.png",
+    "caption_fr": "GPU inutilisé en jeu (FPS 0) — Jeu avec FPS à 0 et flèche vers le bas. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+    "alt_text": "GPU inutilisé en jeu (FPS 0) — Jeu avec FPS à 0 et flèche vers le bas. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+    "keywords": "GPU Not Working in Games,GPU inutilisé en jeu (FPS 0),logiciel_application",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-075"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "GPU Not Working in Games",
+    "label_fr": "GPU inutilisé en jeu (FPS 0)",
+    "domain": "logiciel_application",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-075",
+      "GPU-055"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D10",
+    "level": "panneau",
+    "file": "images/panels/PNL-D10.png",
+    "caption_fr": "Commutateur de GPU du portable (touche Fn) — Clavier de portable avec touche de basculement d'affichage entourée en rouge. (illustration générée par IA ; vignette « Laptop GPU Switch »)",
+    "alt_text": "Commutateur de GPU du portable (touche Fn) — Clavier de portable avec touche de basculement d'affichage entourée en rouge. (illustration générée par IA ; vignette « Laptop GPU Switch »)",
+    "keywords": "Laptop GPU Switch,Commutateur de GPU du portable (touche Fn),logiciel_systeme",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-077"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Laptop GPU Switch",
+    "label_fr": "Commutateur de GPU du portable (touche Fn)",
+    "domain": "logiciel_systeme",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "portable",
+    "related_documents": [
+      "GPU-077",
+      "GPU-062"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D11",
+    "level": "panneau",
+    "file": "images/panels/PNL-D11.png",
+    "caption_fr": "Solution : nettoyage de la poussière — Nettoyage d'un ventilateur de carte au pinceau. (illustration générée par IA ; vignette « Cleaning Solution »)",
+    "alt_text": "Solution : nettoyage de la poussière — Nettoyage d'un ventilateur de carte au pinceau. (illustration générée par IA ; vignette « Cleaning Solution »)",
+    "keywords": "Cleaning Solution,Solution : nettoyage de la poussière,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Cleaning Solution",
+    "label_fr": "Solution : nettoyage de la poussière",
+    "domain": "solution",
+    "agent_autonomy": "solution_illustree",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-078",
+      "GPU-069",
+      "GPU-010"
+    ],
+    "agent_response_mode": "Étape de solution illustrée : l'agent l'explique et la fait vérifier par des mesures."
+  },
+  {
+    "image_id": "PNL-D12",
+    "level": "panneau",
+    "file": "images/panels/PNL-D12.png",
+    "caption_fr": "Solution : mise à jour des pilotes — Barre de progression de mise à jour dans GeForce Experience (successeur : NVIDIA App). (illustration générée par IA ; vignette « Update Drivers »)",
+    "alt_text": "Solution : mise à jour des pilotes — Barre de progression de mise à jour dans GeForce Experience (successeur : NVIDIA App). (illustration générée par IA ; vignette « Update Drivers »)",
+    "keywords": "Update Drivers,Solution : mise à jour des pilotes,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073",
+      "GPU-064"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Update Drivers",
+    "label_fr": "Solution : mise à jour des pilotes",
+    "domain": "solution",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-064"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D13",
+    "level": "panneau",
+    "file": "images/panels/PNL-D13.png",
+    "caption_fr": "Solution : vérifier l'alimentation — Connecteurs d'alimentation PCIe jaunes et noirs. (illustration générée par IA ; vignette « Check Power Supply »)",
+    "alt_text": "Solution : vérifier l'alimentation — Connecteurs d'alimentation PCIe jaunes et noirs. (illustration générée par IA ; vignette « Check Power Supply »)",
+    "keywords": "Check Power Supply,Solution : vérifier l'alimentation,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Check Power Supply",
+    "label_fr": "Solution : vérifier l'alimentation",
+    "domain": "solution",
+    "agent_autonomy": "solution_illustree",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-078",
+      "GPU-067",
+      "GPU-004"
+    ],
+    "agent_response_mode": "Étape de solution illustrée : l'agent l'explique et la fait vérifier par des mesures."
+  },
+  {
+    "image_id": "PNL-D14",
+    "level": "panneau",
+    "file": "images/panels/PNL-D14.png",
+    "caption_fr": "Solution : désinstaller puis réinstaller les pilotes — Corbeille puis logo NVIDIA : désinstaller, installer. (illustration générée par IA ; vignette « Reinstall Drivers »)",
+    "alt_text": "Solution : désinstaller puis réinstaller les pilotes — Corbeille puis logo NVIDIA : désinstaller, installer. (illustration générée par IA ; vignette « Reinstall Drivers »)",
+    "keywords": "Reinstall Drivers,Solution : désinstaller puis réinstaller les pilotes,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073",
+      "GPU-064"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Reinstall Drivers",
+    "label_fr": "Solution : désinstaller puis réinstaller les pilotes",
+    "domain": "solution",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-064",
+      "GPU-020"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D15",
+    "level": "panneau",
+    "file": "images/panels/PNL-D15.png",
+    "caption_fr": "Solution : vérifier la température (65 °C) — Température GPU de 65 °C avec coche verte. (illustration générée par IA ; vignette « Check Temperature »)",
+    "alt_text": "Solution : vérifier la température (65 °C) — Température GPU de 65 °C avec coche verte. (illustration générée par IA ; vignette « Check Temperature »)",
+    "keywords": "Check Temperature,Solution : vérifier la température (65 °C),solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Check Temperature",
+    "label_fr": "Solution : vérifier la température (65 °C)",
+    "domain": "solution",
+    "agent_autonomy": "solution_illustree",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-078",
+      "GPU-069",
+      "GPU-011"
+    ],
+    "agent_response_mode": "Étape de solution illustrée : l'agent l'explique et la fait vérifier par des mesures."
+  },
+  {
+    "image_id": "PNL-D16",
+    "level": "panneau",
+    "file": "images/panels/PNL-D16.png",
+    "caption_fr": "Solution : réinsérer la carte (reseat) ; le reflow est exclu — Main qui insère une carte dans le slot PCIe. Le reflow (chauffage) n'est pas une opération autorisée. (illustration générée par IA ; vignette « Reflow / Reseat GPU »)",
+    "alt_text": "Solution : réinsérer la carte (reseat) ; le reflow est exclu — Main qui insère une carte dans le slot PCIe. Le reflow (chauffage) n'est pas une opération autorisée. (illustration générée par IA ; vignette « Reflow / Reseat GPU »)",
+    "keywords": "Reflow / Reseat GPU,Solution : réinsérer la carte (reseat) ; le reflow est exclu,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Reflow / Reseat GPU",
+    "label_fr": "Solution : réinsérer la carte (reseat) ; le reflow est exclu",
+    "domain": "solution",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-078",
+      "GPU-018",
+      "GPU-003"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D17",
+    "level": "panneau",
+    "file": "images/panels/PNL-D17.png",
+    "caption_fr": "Solution : vérifier les connexions — Intérieur de boîtier avec un câble entouré en rouge. (illustration générée par IA ; vignette « Check Connections »)",
+    "alt_text": "Solution : vérifier les connexions — Intérieur de boîtier avec un câble entouré en rouge. (illustration générée par IA ; vignette « Check Connections »)",
+    "keywords": "Check Connections,Solution : vérifier les connexions,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-078"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Check Connections",
+    "label_fr": "Solution : vérifier les connexions",
+    "domain": "solution",
+    "agent_autonomy": "solution_illustree",
+    "platform": "desktop",
+    "related_documents": [
+      "GPU-078",
+      "GPU-067"
+    ],
+    "agent_response_mode": "Étape de solution illustrée : l'agent l'explique et la fait vérifier par des mesures."
+  },
+  {
+    "image_id": "PNL-D18",
+    "level": "panneau",
+    "file": "images/panels/PNL-D18.png",
+    "caption_fr": "Solution : activer le GPU dédié dans le BIOS — BIOS : Discrete GPU [Enabled], iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « Enable GPU in BIOS »)",
+    "alt_text": "Solution : activer le GPU dédié dans le BIOS — BIOS : Discrete GPU [Enabled], iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « Enable GPU in BIOS »)",
+    "keywords": "Enable GPU in BIOS,Solution : activer le GPU dédié dans le BIOS,firmware_bios",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-071"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Enable GPU in BIOS",
+    "label_fr": "Solution : activer le GPU dédié dans le BIOS",
+    "domain": "firmware_bios",
+    "agent_autonomy": "instructions_utilisateur",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-071",
+      "GPU-060"
+    ],
+    "agent_response_mode": "L'agent explique et guide pas à pas ; aucune action automatique ; escalade si dommage ou doute de sécurité."
+  },
+  {
+    "image_id": "PNL-D19",
+    "level": "panneau",
+    "file": "images/panels/PNL-D19.png",
+    "caption_fr": "Solution : vérifier les mises à jour Windows — Windows Update : système à jour. (illustration générée par IA ; vignette « Check for Windows Updates »)",
+    "alt_text": "Solution : vérifier les mises à jour Windows — Windows Update : système à jour. (illustration générée par IA ; vignette « Check for Windows Updates »)",
+    "keywords": "Check for Windows Updates,Solution : vérifier les mises à jour Windows,solution",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-073",
+      "GPU-064"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Check for Windows Updates",
+    "label_fr": "Solution : vérifier les mises à jour Windows",
+    "domain": "solution",
+    "agent_autonomy": "agent_avec_autorisation",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-073",
+      "GPU-064"
+    ],
+    "agent_response_mode": "Problème logiciel : l'agent propose un plan d'actions (GPU-064) et demande l'autorisation (Autoriser / Refuser) avant d'exécuter ; sinon instructions."
+  },
+  {
+    "image_id": "PNL-D20",
+    "level": "panneau",
+    "file": "images/panels/PNL-D20.png",
+    "caption_fr": "Autoriser l'agent à corriger le problème (Allow / Deny) — Boîte de dialogue : autoriser l'agent IA à corriger le problème GPU ? Boutons Allow et Deny. (illustration générée par IA ; vignette « Grant Permission to Agent »)",
+    "alt_text": "Autoriser l'agent à corriger le problème (Allow / Deny) — Boîte de dialogue : autoriser l'agent IA à corriger le problème GPU ? Boutons Allow et Deny. (illustration générée par IA ; vignette « Grant Permission to Agent »)",
+    "keywords": "Grant Permission to Agent,Autoriser l'agent à corriger le problème (Allow / Deny),agent",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-063",
+      "GPU-064"
+    ],
+    "source_infographic": "SRC-D",
+    "label_en": "Grant Permission to Agent",
+    "label_fr": "Autoriser l'agent à corriger le problème (Allow / Deny)",
+    "domain": "agent",
+    "agent_autonomy": "interface_agent",
+    "platform": "desktop_et_portable",
+    "related_documents": [
+      "GPU-063",
+      "GPU-064"
+    ],
+    "agent_response_mode": "Exemple d'interface de l'agent : illustration, non une preuve de résolution."
+  },
+  {
+    "image_id": "SRC-A",
+    "level": "infographie_source",
+    "file": "images/sources/SRC-A.png",
+    "caption_fr": "Infographie « GPU Electrical Failures — Diagnosis & Solutions » : 12 pannes électriques (alimentation, composants brûlés, court-circuit, tension, connecteur, VRM, bruit, voyant, slot PCIe, ventilateur, capteur, pistes).",
+    "alt_text": "Infographie « GPU Electrical Failures — Diagnosis & Solutions » : 12 pannes électriques (alimentation, composants brûlés, court-circuit, tension, connecteur, VRM, bruit, voyant, slot PCIe, ventilateur, capteur, pistes).",
+    "keywords": "pannes électriques,infographie,alimentation,vrm",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-065"
+    ]
+  },
+  {
+    "image_id": "SRC-B",
+    "level": "infographie_source",
+    "file": "images/sources/SRC-B.png",
+    "caption_fr": "Grille de 16 vignettes de dépannage : pas de signal, GPU non détecté, surchauffe, artefacts, BSOD, pilote, jeux, alimentation, ventilateur, gestionnaire de périphériques, FPS, pâte thermique, BIOS, installation, solution, agent.",
+    "alt_text": "Grille de 16 vignettes de dépannage : pas de signal, GPU non détecté, surchauffe, artefacts, BSOD, pilote, jeux, alimentation, ventilateur, gestionnaire de périphériques, FPS, pâte thermique, BIOS, installation, solution, agent.",
+    "keywords": "infographie,dépannage,symptômes,solutions",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-065"
+    ]
+  },
+  {
+    "image_id": "SRC-C",
+    "level": "infographie_source",
+    "file": "images/sources/SRC-C.png",
+    "caption_fr": "Infographie « GPU AI Troubleshooting Corpus » : 18 diagnostics (VRAM, PCB, liquide, slot PCIe, limite de puissance, DirectX, eGPU, HDR, firmware, flash BIOS, coil whine, BGA, roulement, throttling, conflits, accélération matérielle, crash, compatibilité OS).",
+    "alt_text": "Infographie « GPU AI Troubleshooting Corpus » : 18 diagnostics (VRAM, PCB, liquide, slot PCIe, limite de puissance, DirectX, eGPU, HDR, firmware, flash BIOS, coil whine, BGA, roulement, throttling, conflits, accélération matérielle, crash, compatibilité OS).",
+    "keywords": "infographie,18 diagnostics,vram,firmware",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-065"
+    ]
+  },
+  {
+    "image_id": "SRC-D",
+    "level": "infographie_source",
+    "file": "images/sources/SRC-D.png",
+    "caption_fr": "Grille de 20 vignettes : symptômes (pas de signal, GPU non détecté, surchauffe, artefacts, timeout AMD, mises à jour, BSOD TDR, jeux, commutateur portable) et solutions (nettoyage, pilotes, alimentation, température, reseat, connexions, BIOS, Windows Update, autorisation de l'agent).",
+    "alt_text": "Grille de 20 vignettes : symptômes (pas de signal, GPU non détecté, surchauffe, artefacts, timeout AMD, mises à jour, BSOD TDR, jeux, commutateur portable) et solutions (nettoyage, pilotes, alimentation, température, reseat, connexions, BIOS, Windows Update, autorisation de l'agent).",
+    "keywords": "infographie,symptômes,solutions,agent",
+    "synthetic": true,
+    "linked_documents": [
+      "GPU-065"
+    ]
+  }
+]

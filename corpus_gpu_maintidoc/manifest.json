@@ -1,0 +1,3641 @@
+[
+  {
+    "document_id": "GPU-001",
+    "title": "Architecture générale d'une carte graphique",
+    "file": "documents/GPU-001_architecture_generale_d_une_carte_graphique.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Architecture générale d'une carte graphique"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Chaîne d'alimentation et de signal d'une carte graphique"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Anatomie d'une carte graphique : équerre et sorties vidéo, ventilateurs, radiateur, connecteur d'alimentation, doigts dorés PCIe.",
+        "image_id": "IMG-001"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-001)"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-001)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-001"
+    ]
+  },
+  {
+    "document_id": "GPU-002",
+    "title": "Glossaire des termes GPU",
+    "file": "documents/GPU-002_glossaire_des_termes_gpu.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "glossaire",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-002)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-002)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-003",
+    "title": "Interface PCI Express : slot, lignes et générations",
+    "file": "documents/GPU-003_interface_pci_express_slot_lignes_et_generations.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Interface PCI Express : slot, lignes et générations"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Procédure de contrôle du slot PCIe"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Doigts dorés PCIe x16 de la carte et slot de la carte mère : encoche de détrompage, verrou, rayure superficielle ou profonde.",
+        "image_id": "IMG-002"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-003)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-003)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-002"
+    ]
+  },
+  {
+    "document_id": "GPU-004",
+    "title": "Alimentation des cartes graphiques : connecteurs PCIe 6 et 8 broches",
+    "file": "documents/GPU-004_alimentation_des_cartes_graphiques_connecteurs_pcie_6_et_8_b.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Alimentation des cartes graphiques : connecteurs PCIe 6 et 8 broches"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Comparaison des connecteurs d'alimentation PCIe 6 broches (75 W), 8 broches (150 W) et 12V-2x6 (jusqu'à 600 W).",
+        "image_id": "IMG-003"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-004)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-004)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-003"
+    ]
+  },
+  {
+    "document_id": "GPU-005",
+    "title": "Connecteur 12VHPWR et 12V-2x6 : description et insertion",
+    "file": "documents/GPU-005_connecteur_12vhpwr_et_12v_2x6_description_et_insertion.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Connecteur 12VHPWR et 12V-2x6 : description et insertion"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Insertion correcte d'un connecteur 12V-2x6"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Brochage du connecteur 12VHPWR / 12V-2x6 : 12 broches d'alimentation et 4 broches de signal SENSE0, SENSE1, CARD_PWR_STABLE, CARD_CBL_PRES#.",
+        "image_id": "IMG-004"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Comparaison des connecteurs d'alimentation PCIe 6 broches (75 W), 8 broches (150 W) et 12V-2x6 (jusqu'à 600 W).",
+        "image_id": "IMG-003"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-005)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-005)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-004",
+      "IMG-003"
+    ]
+  },
+  {
+    "document_id": "GPU-006",
+    "title": "Procédure : connecteur d'alimentation brûlé ou fondu (12VHPWR / 12V-2x6)",
+    "file": "documents/GPU-006_procedure_connecteur_d_alimentation_brule_ou_fondu_12vhpwr_1.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Procédure : connecteur d'alimentation brûlé ou fondu (12VHPWR / 12V-2x6)"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Arbre de décision : connecteur fondu"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Trois états d'un connecteur 12V-2x6 : normal, décoloration, fondu ou déformé.",
+        "image_id": "IMG-013"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-006)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-006)"
+      }
+    ],
+    "keywords": "12vhpwr;connecteur fondu;600W;brûlé",
+    "image_ids": [
+      "IMG-013"
+    ]
+  },
+  {
+    "document_id": "GPU-007",
+    "title": "Dimensionnement du bloc d'alimentation pour une carte graphique",
+    "file": "documents/GPU-007_dimensionnement_du_bloc_d_alimentation_pour_une_carte_graphi.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Dimensionnement du bloc d'alimentation pour une carte graphique"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-007)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-007)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-008",
+    "title": "Sorties vidéo : DisplayPort et HDMI",
+    "file": "documents/GPU-008_sorties_video_displayport_et_hdmi.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Sorties vidéo : DisplayPort et HDMI"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Diagnostic d'un port vidéo sans signal"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Formes des ports DisplayPort (coin biseauté) et HDMI (profil trapézoïdal).",
+        "image_id": "IMG-005"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-008)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-008)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-005"
+    ]
+  },
+  {
+    "document_id": "GPU-009",
+    "title": "Résolutions, fréquences et bande passante vidéo",
+    "file": "documents/GPU-009_resolutions_frequences_et_bande_passante_video.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Résolutions, fréquences et bande passante vidéo"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Débit brut des liaisons vidéo : HDMI 2.0, DisplayPort 1.4a, HDMI 2.1, DisplayPort 2.1.",
+        "image_id": "IMG-011"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-009)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-009)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-011"
+    ]
+  },
+  {
+    "document_id": "GPU-010",
+    "title": "Refroidissement par air : dissipateur, caloducs et ventilateurs",
+    "file": "documents/GPU-010_refroidissement_par_air_dissipateur_caloducs_et_ventilateurs.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Chemin de la chaleur"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Anatomie d'une carte graphique : équerre et sorties vidéo, ventilateurs, radiateur, connecteur d'alimentation, doigts dorés PCIe.",
+        "image_id": "IMG-001"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-010)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-010)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-001"
+    ]
+  },
+  {
+    "document_id": "GPU-011",
+    "title": "Températures normales et réduction de fréquence (throttling)",
+    "file": "documents/GPU-011_temperatures_normales_et_reduction_de_frequence_throttling.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Températures normales et réduction de fréquence (throttling)"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Température trop élevée : démarche"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Plages de température indicatives d'une carte graphique : repos, charge normale, à surveiller, critique.",
+        "image_id": "IMG-006"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-011)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-011)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-006"
+    ]
+  },
+  {
+    "document_id": "GPU-012",
+    "title": "Remplacement et modification des ventilateurs de carte graphique",
+    "file": "documents/GPU-012_remplacement_et_modification_des_ventilateurs_de_carte_graph.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Remplacement et modification des ventilateurs de carte graphique"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-012)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-012)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-013",
+    "title": "Pâte thermique et pads thermiques : remplacement",
+    "file": "documents/GPU-013_pate_thermique_et_pads_thermiques_remplacement.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-013)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-013)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-014",
+    "title": "Refroidissement liquide AIO et proximité avec la carte graphique",
+    "file": "documents/GPU-014_refroidissement_liquide_aio_et_proximite_avec_la_carte_graph.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Contrôle d'un montage AIO près de la carte"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Flux d'air recommandé dans un boîtier : entrées d'air frais en façade, sorties d'air chaud à l'arrière et en haut.",
+        "image_id": "IMG-007"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-014)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-014)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-007"
+    ]
+  },
+  {
+    "document_id": "GPU-015",
+    "title": "Flux d'air du boîtier et placement de la carte graphique",
+    "file": "documents/GPU-015_flux_d_air_du_boitier_et_placement_de_la_carte_graphique.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Flux d'air recommandé dans un boîtier : entrées d'air frais en façade, sorties d'air chaud à l'arrière et en haut.",
+        "image_id": "IMG-007"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-015)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-015)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-007"
+    ]
+  },
+  {
+    "document_id": "GPU-016",
+    "title": "Affaissement de la carte graphique (GPU sag) et supports",
+    "file": "documents/GPU-016_affaissement_de_la_carte_graphique_gpu_sag_et_supports.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Affaissement de la carte graphique (GPU sag) et supports"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Correction de l'affaissement"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Carte affaissée (GPU sag) et carte soutenue par un support anti-affaissement.",
+        "image_id": "IMG-008"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-016)"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-016)"
+      }
+    ],
+    "keywords": "sag;penche;support;incliné",
+    "image_ids": [
+      "IMG-008"
+    ]
+  },
+  {
+    "document_id": "GPU-017",
+    "title": "Montage vertical et câbles riser PCIe",
+    "file": "documents/GPU-017_montage_vertical_et_cables_riser_pcie.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-017)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-017)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-018",
+    "title": "Inspection des doigts dorés (contacts PCIe) de la carte graphique",
+    "file": "documents/GPU-018_inspection_des_doigts_dores_contacts_pcie_de_la_carte_graphi.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Inspection des doigts dorés (contacts PCIe) de la carte graphique"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Doigts dorés PCIe x16 de la carte et slot de la carte mère : encoche de détrompage, verrou, rayure superficielle ou profonde.",
+        "image_id": "IMG-002"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-018)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-018)"
+      }
+    ],
+    "keywords": "doigts dorés;pcie;rayure;gigabyte",
+    "image_ids": [
+      "IMG-002"
+    ]
+  },
+  {
+    "document_id": "GPU-019",
+    "title": "Artefacts visuels : classification et premiers tests",
+    "file": "documents/GPU-019_artefacts_visuels_classification_et_premiers_tests.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Artefacts visuels : classification et premiers tests"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Arbre de diagnostic des artefacts"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Galerie simulée d'artefacts : points colorés, blocs, lignes horizontales, lignes verticales, zone corrompue, avec causes possibles.",
+        "image_id": "IMG-009"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-019)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-019)"
+      }
+    ],
+    "keywords": "artefacts;points roses;magenta;écran",
+    "image_ids": [
+      "IMG-009"
+    ]
+  },
+  {
+    "document_id": "GPU-020",
+    "title": "Pilotes NVIDIA : installation propre et échec d'installation",
+    "file": "documents/GPU-020_pilotes_nvidia_installation_propre_et_echec_d_installation.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Réinstallation propre du pilote NVIDIA"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-020)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-020)"
+      }
+    ],
+    "keywords": "nvidia;geforce experience;pilote;drivers",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-021",
+    "title": "Pilotes AMD Adrenalin : installation et délais d'expiration",
+    "file": "documents/GPU-021_pilotes_amd_adrenalin_installation_et_delais_d_expiration.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-021)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-021)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-022",
+    "title": "Tests de stress et validation après réparation",
+    "file": "documents/GPU-022_tests_de_stress_et_validation_apres_reparation.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Tests de stress et validation après réparation"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Protocole de validation"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-022)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-022)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-023",
+    "title": "Mémoire vidéo (VRAM) : types et défauts",
+    "file": "documents/GPU-023_memoire_video_vram_types_et_defauts.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Mémoire vidéo (VRAM) : types et défauts"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-023)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-023)"
+      }
+    ],
+    "keywords": "vram;gddr6;gddr7",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-024",
+    "title": "VRM et condensateurs d'une carte graphique : inspection visuelle",
+    "file": "documents/GPU-024_vrm_et_condensateurs_d_une_carte_graphique_inspection_visuel.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — VRM et condensateurs d'une carte graphique : inspection visuelle"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-024)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-024)"
+      }
+    ],
+    "keywords": "condensateur;vrm;gonflé",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-025",
+    "title": "Voyants de diagnostic sur la carte graphique",
+    "file": "documents/GPU-025_voyants_de_diagnostic_sur_la_carte_graphique.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Voyants de diagnostic sur la carte graphique"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Voyant rouge près du connecteur"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Brochage du connecteur 12VHPWR / 12V-2x6 : 12 broches d'alimentation et 4 broches de signal SENSE0, SENSE1, CARD_PWR_STABLE, CARD_CBL_PRES#.",
+        "image_id": "IMG-004"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-025)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-025)"
+      }
+    ],
+    "keywords": "led;voyant rouge;asus;alimentation",
+    "image_ids": [
+      "IMG-004"
+    ]
+  },
+  {
+    "document_id": "GPU-026",
+    "title": "Voyants de diagnostic de la carte mère (VGA, CPU, DRAM, BOOT)",
+    "file": "documents/GPU-026_voyants_de_diagnostic_de_la_carte_mere_vga_cpu_dram_boot.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Voyants de diagnostic de la carte mère (VGA, CPU, DRAM, BOOT)"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-026)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-026)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-027",
+    "title": "Absence d'affichage au démarrage : arbre de décision",
+    "file": "documents/GPU-027_absence_d_affichage_au_demarrage_arbre_de_decision.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Arbre de décision : pas d'affichage"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Schéma de triage général d'un incident de carte graphique : sécurité, image/écran, logiciel, test croisé.",
+        "image_id": "IMG-010"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-027)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-027)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-010"
+    ]
+  },
+  {
+    "document_id": "GPU-028",
+    "title": "Fiche famille NVIDIA GeForce RTX série 30",
+    "file": "documents/GPU-028_fiche_famille_nvidia_geforce_rtx_serie_30.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille NVIDIA GeForce RTX série 30"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-028)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-028)"
+      }
+    ],
+    "keywords": "rtx 30;ampere",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-029",
+    "title": "Fiche famille NVIDIA GeForce RTX série 40",
+    "file": "documents/GPU-029_fiche_famille_nvidia_geforce_rtx_serie_40.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille NVIDIA GeForce RTX série 40"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-029)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-029)"
+      }
+    ],
+    "keywords": "rtx 40;ada lovelace",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-030",
+    "title": "Fiche famille NVIDIA GeForce RTX série 50",
+    "file": "documents/GPU-030_fiche_famille_nvidia_geforce_rtx_serie_50.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille NVIDIA GeForce RTX série 50"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-030)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-030)"
+      }
+    ],
+    "keywords": "rtx 50;blackwell",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-031",
+    "title": "Fiche famille AMD Radeon RX série 6000",
+    "file": "documents/GPU-031_fiche_famille_amd_radeon_rx_serie_6000.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille AMD Radeon RX série 6000"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-031)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-031)"
+      }
+    ],
+    "keywords": "rx 6000;rdna2",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-032",
+    "title": "Fiche famille AMD Radeon RX série 7000",
+    "file": "documents/GPU-032_fiche_famille_amd_radeon_rx_serie_7000.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille AMD Radeon RX série 7000"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-032)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-032)"
+      }
+    ],
+    "keywords": "rx 7000;rdna3",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-033",
+    "title": "Fiche famille AMD Radeon RX série 9000",
+    "file": "documents/GPU-033_fiche_famille_amd_radeon_rx_serie_9000.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "fiche",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Fiche famille AMD Radeon RX série 9000"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-033)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-033)"
+      }
+    ],
+    "keywords": "rx 9000;rdna4;prime",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-034",
+    "title": "Cartes graphiques de portables : spécificités et artefacts",
+    "file": "documents/GPU-034_cartes_graphiques_de_portables_specificites_et_artefacts.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-034)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-034)"
+      }
+    ],
+    "keywords": "portable;laptop;legion",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-035",
+    "title": "Consignes de sécurité pour l'intervention sur une carte graphique",
+    "file": "documents/GPU-035_consignes_de_securite_pour_l_intervention_sur_une_carte_grap.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "securite",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-035)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-035)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-036",
+    "title": "Overclocking et undervolting : risques et retour aux réglages d'origine",
+    "file": "documents/GPU-036_overclocking_et_undervolting_risques_et_retour_aux_reglages_.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-036)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-036)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-037",
+    "title": "Contrôle d'une carte graphique d'occasion",
+    "file": "documents/GPU-037_controle_d_une_carte_graphique_d_occasion.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-037)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-037)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-038",
+    "title": "Mise à jour du BIOS de la carte, Resizable BAR et réglages UEFI",
+    "file": "documents/GPU-038_mise_a_jour_du_bios_de_la_carte_resizable_bar_et_reglages_ue.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-038)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-038)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-039",
+    "title": "Compatibilité mécanique : longueur, épaisseur et dégagements",
+    "file": "documents/GPU-039_compatibilite_mecanique_longueur_epaisseur_et_degagements.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "manuel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-039)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-039)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-040",
+    "title": "Installation physique d'une carte graphique pas à pas",
+    "file": "documents/GPU-040_installation_physique_d_une_carte_graphique_pas_a_pas.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Installation d'une carte graphique"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-040)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-040)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-041",
+    "title": "Périmètre du corpus et équipements non couverts",
+    "file": "documents/GPU-041_perimetre_du_corpus_et_equipements_non_couverts.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "perimetre",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-041)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-041)"
+      }
+    ],
+    "keywords": "hors périmètre;télévision;tv;condensateur",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-042",
+    "title": "Escalade, garantie et retour (RMA) : critères et preuves",
+    "file": "documents/GPU-042_escalade_garantie_et_retour_rma_criteres_et_preuves.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-042)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-042)"
+      }
+    ],
+    "keywords": "rma;garantie;escalade;responsable",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-043",
+    "title": "Gabarit de ticket de maintenance pour carte graphique",
+    "file": "documents/GPU-043_gabarit_de_ticket_de_maintenance_pour_carte_graphique.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "gabarit",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-043)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-043)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-044",
+    "title": "Gestion de l'incertitude : quand demander une clarification",
+    "file": "documents/GPU-044_gestion_de_l_incertitude_quand_demander_une_clarification.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "politique",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Familles de causes d'un incident GPU : matériel, alimentation, thermique, liaison et affichage, pilote et système, applications.",
+        "image_id": "IMG-012"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-044)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-044)"
+      }
+    ],
+    "keywords": "",
+    "image_ids": [
+      "IMG-012"
+    ]
+  },
+  {
+    "document_id": "GPU-045",
+    "title": "Gestionnaire de périphériques Windows : codes d'erreur de la carte graphique",
+    "file": "documents/GPU-045_gestionnaire_de_peripheriques_windows_codes_d_erreur_de_la_c.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Gestionnaire de périphériques Windows : codes d'erreur de la carte graphique"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Démarche pour le code 43"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-045)"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-045)"
+      }
+    ],
+    "keywords": "code 43;code 10;code 31;gestionnaire de périphériques;erreur windows",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-046",
+    "title": "NVIDIA : « Le pilote d'affichage a cessé de répondre » (nvlddmkm, événement 4101)",
+    "file": "documents/GPU-046_nvidia_le_pilote_d_affichage_a_cesse_de_repondre_nvlddmkm_ev.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — NVIDIA : « Le pilote d'affichage a cessé de répondre » (nvlddmkm, événement 4101)"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-046)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-046)"
+      }
+    ],
+    "keywords": "nvidia;nvlddmkm;4101;driver stopped responding;tdr",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-047",
+    "title": "AMD : délai d'expiration du pilote, réinitialisation WattMan et amdkmdag",
+    "file": "documents/GPU-047_amd_delai_d_expiration_du_pilote_reinitialisation_wattman_et.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — AMD : délai d'expiration du pilote, réinitialisation WattMan et amdkmdag"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-047)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-047)"
+      }
+    ],
+    "keywords": "amd;adrenalin;wattman;amdkmdag;driver timeout",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-048",
+    "title": "Écrans bleus (BSOD) liés à la carte graphique : codes d'arrêt et pilotes",
+    "file": "documents/GPU-048_ecrans_bleus_bsod_lies_a_la_carte_graphique_codes_d_arret_et.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Écrans bleus (BSOD) liés à la carte graphique : codes d'arrêt et pilotes"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Arbre de décision : écran bleu"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Familles de causes d'un incident GPU : matériel, alimentation, thermique, liaison et affichage, pilote et système, applications.",
+        "image_id": "IMG-012"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-048)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-048)"
+      }
+    ],
+    "keywords": "bsod;écran bleu;video_tdr_failure;0x116;0x117;whea",
+    "image_ids": [
+      "IMG-012"
+    ]
+  },
+  {
+    "document_id": "GPU-049",
+    "title": "NVIDIA : Panneau de configuration, NVIDIA App et GPU non détecté ou non utilisé",
+    "file": "documents/GPU-049_nvidia_panneau_de_configuration_nvidia_app_et_gpu_non_detect.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — NVIDIA : Panneau de configuration, NVIDIA App et GPU non détecté ou non utilisé"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-049)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-049)"
+      }
+    ],
+    "keywords": "nvidia;panneau de configuration;nvidia app;nvidia-smi;gpu non détecté",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-050",
+    "title": "AMD Software Adrenalin : erreurs d'installation et d'ouverture",
+    "file": "documents/GPU-050_amd_software_adrenalin_erreurs_d_installation_et_d_ouverture.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — AMD Software Adrenalin : erreurs d'installation et d'ouverture"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-050)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-050)"
+      }
+    ],
+    "keywords": "amd;adrenalin;installation;erreur 182;pilote non installé",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-051",
+    "title": "NVIDIA sous Linux : erreurs Xid et carte qui disparaît du bus",
+    "file": "documents/GPU-051_nvidia_sous_linux_erreurs_xid_et_carte_qui_disparait_du_bus.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — NVIDIA sous Linux : erreurs Xid et carte qui disparaît du bus"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Analyse d'un Xid"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-051)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-051)"
+      }
+    ],
+    "keywords": "nvidia;linux;xid;fallen off the bus;nvidia-smi;dmesg",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-052",
+    "title": "AMD sous Linux : erreurs amdgpu, ring timeout et réinitialisation du GPU",
+    "file": "documents/GPU-052_amd_sous_linux_erreurs_amdgpu_ring_timeout_et_reinitialisati.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — AMD sous Linux : erreurs amdgpu, ring timeout et réinitialisation du GPU"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-052)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-052)"
+      }
+    ],
+    "keywords": "amd;linux;amdgpu;ring timeout;gpu reset;mesa",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-053",
+    "title": "CUDA et PyTorch : erreurs GPU NVIDIA fréquentes",
+    "file": "documents/GPU-053_cuda_et_pytorch_erreurs_gpu_nvidia_frequentes.pdf",
+    "version": "1.0",
+    "equipment_family": "NVIDIA_GeForce_RTX",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — CUDA et PyTorch : erreurs GPU NVIDIA fréquentes"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-053)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-053)"
+      }
+    ],
+    "keywords": "cuda;pytorch;out of memory;nvidia-smi;ia",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-054",
+    "title": "ROCm et HIP : erreurs GPU AMD fréquentes",
+    "file": "documents/GPU-054_rocm_et_hip_erreurs_gpu_amd_frequentes.pdf",
+    "version": "1.0",
+    "equipment_family": "AMD_Radeon_RX",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — ROCm et HIP : erreurs GPU AMD fréquentes"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-054)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-054)"
+      }
+    ],
+    "keywords": "amd;rocm;hip;gfx;pytorch;linux",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-055",
+    "title": "Erreurs de jeux et d'applications : périphérique supprimé, mémoire vidéo, plantages",
+    "file": "documents/GPU-055_erreurs_de_jeux_et_d_applications_peripherique_supprime_memo.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Erreurs de jeux et d'applications : périphérique supprimé, mémoire vidéo, plantages"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Plantage de jeu : démarche"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-055)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-055)"
+      }
+    ],
+    "keywords": "dxgi;device removed;vulkan;plantage jeu;out of video memory",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-056",
+    "title": "Erreurs d'affichage : pas de signal intermittent, veille, HDCP, fréquence, scintillement",
+    "file": "documents/GPU-056_erreurs_d_affichage_pas_de_signal_intermittent_veille_hdcp_f.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Erreurs d'affichage : pas de signal intermittent, veille, HDCP, fréquence, scintillement"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Formes des ports DisplayPort (coin biseauté) et HDMI (profil trapézoïdal).",
+        "image_id": "IMG-005"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Débit brut des liaisons vidéo : HDMI 2.0, DisplayPort 1.4a, HDMI 2.1, DisplayPort 2.1.",
+        "image_id": "IMG-011"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-056)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-056)"
+      }
+    ],
+    "keywords": "affichage;veille;hdcp;vrr;g-sync;freesync;edid;scintillement",
+    "image_ids": [
+      "IMG-005",
+      "IMG-011"
+    ]
+  },
+  {
+    "document_id": "GPU-057",
+    "title": "Bruits de la carte graphique : ventilateurs, sifflement des bobines et vibrations",
+    "file": "documents/GPU-057_bruits_de_la_carte_graphique_ventilateurs_sifflement_des_bob.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "referentiel",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Bruits de la carte graphique : ventilateurs, sifflement des bobines et vibrations"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-057)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-057)"
+      }
+    ],
+    "keywords": "bruit;coil whine;ventilateur;vibration",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-058",
+    "title": "Extinctions et redémarrages en charge : alimentation, protections et pics",
+    "file": "documents/GPU-058_extinctions_et_redemarrages_en_charge_alimentation_protectio.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Extinctions et redémarrages en charge : alimentation, protections et pics"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Arrêts en charge"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Trois états d'un connecteur 12V-2x6 : normal, décoloration, fondu ou déformé.",
+        "image_id": "IMG-013"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Comparaison des connecteurs d'alimentation PCIe 6 broches (75 W), 8 broches (150 W) et 12V-2x6 (jusqu'à 600 W).",
+        "image_id": "IMG-003"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-058)"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-058)"
+      }
+    ],
+    "keywords": "extinction;redémarrage;kernel-power 41;bloc d'alimentation;protection",
+    "image_ids": [
+      "IMG-013",
+      "IMG-003"
+    ]
+  },
+  {
+    "document_id": "GPU-059",
+    "title": "Galerie illustrée des artefacts et des défauts : repères visuels",
+    "file": "documents/GPU-059_galerie_illustree_des_artefacts_et_des_defauts_reperes_visue.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "galerie",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Galerie illustrée des artefacts et des défauts : repères visuels"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Galerie simulée d'artefacts : points colorés, blocs, lignes horizontales, lignes verticales, zone corrompue, avec causes possibles.",
+        "image_id": "IMG-009"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Trois états d'un connecteur 12V-2x6 : normal, décoloration, fondu ou déformé.",
+        "image_id": "IMG-013"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Doigts dorés PCIe x16 de la carte et slot de la carte mère : encoche de détrompage, verrou, rayure superficielle ou profonde.",
+        "image_id": "IMG-002"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Carte affaissée (GPU sag) et carte soutenue par un support anti-affaissement.",
+        "image_id": "IMG-008"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-059)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-059)"
+      }
+    ],
+    "keywords": "galerie;artefacts;images;illustration",
+    "image_ids": [
+      "IMG-009",
+      "IMG-013",
+      "IMG-002",
+      "IMG-008"
+    ]
+  },
+  {
+    "document_id": "GPU-060",
+    "title": "BIOS, POST et liaison PCIe : carte non détectée ou mal négociée",
+    "file": "documents/GPU-060_bios_post_et_liaison_pcie_carte_non_detectee_ou_mal_negociee.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — BIOS, POST et liaison PCIe : carte non détectée ou mal négociée"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-060)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-060)"
+      }
+    ],
+    "keywords": "bios;post;pcie;x8;x4;above 4g;uefi;csm",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-061",
+    "title": "Index des symptômes vers les documents du corpus",
+    "file": "documents/GPU-061_index_des_symptomes_vers_les_documents_du_corpus.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "index",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Index des symptômes vers les documents du corpus"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Triage général d'un incident"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Schéma de triage général d'un incident de carte graphique : sécurité, image/écran, logiciel, test croisé.",
+        "image_id": "IMG-010"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Familles de causes d'un incident GPU : matériel, alimentation, thermique, liaison et affichage, pilote et système, applications.",
+        "image_id": "IMG-012"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-061)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-061)"
+      }
+    ],
+    "keywords": "index;symptômes;aide-mémoire",
+    "image_ids": [
+      "IMG-010",
+      "IMG-012"
+    ]
+  },
+  {
+    "document_id": "GPU-062",
+    "title": "Portables à GPU hybride : GPU dédié non utilisé ou non détecté (Optimus, Switchable, MUX)",
+    "file": "documents/GPU-062_portables_a_gpu_hybride_gpu_dedie_non_utilise_ou_non_detecte.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Portables à GPU hybride : GPU dédié non utilisé ou non détecté (Optimus, Switchable, MUX)"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-062)"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-062)"
+      }
+    ],
+    "keywords": "portable;optimus;switchable;mux;gpu hybride;legion",
+    "image_ids": []
+  },
+  {
+    "document_id": "GPU-063",
+    "title": "Protocole de l'agent : entrées, classification, autorisation et réponses",
+    "file": "documents/GPU-063_protocole_de_l_agent_entrees_classification_autorisation_et_.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "protocole",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 6,
+    "elements": [
+      {
+        "element_id": "table_2_1",
+        "type": "table",
+        "page": 2,
+        "caption": "Tableau — Protocole de l'agent : entrées, classification, autorisation et réponses"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Protocole de décision de l'agent"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Réponse de l'agent IA (problème corrigé) — Robot assistant avec bulle « Problem Fixed ». Exemple d'interface : une correction doit être vérifiée par des mesures, pas seulement annoncée. (illustration générée par IA ; vignette « AI Agent Response »)",
+        "image_id": "PNL-B16"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Autoriser l'agent à corriger le problème (Allow / Deny) — Boîte de dialogue : autoriser l'agent IA à corriger le problème GPU ? Boutons Allow et Deny. (illustration générée par IA ; vignette « Grant Permission to Agent »)",
+        "image_id": "PNL-D20"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-063)"
+      },
+      {
+        "element_id": "table_6_1",
+        "type": "table",
+        "page": 6,
+        "caption": "Annexe B — Fiche de relevé (GPU-063)"
+      }
+    ],
+    "keywords": "agent;autorisation;protocole;classification;physique;logiciel",
+    "image_ids": [
+      "PNL-B16",
+      "PNL-D20"
+    ]
+  },
+  {
+    "document_id": "GPU-064",
+    "title": "Catalogue des actions de l'agent et règles d'autorisation",
+    "file": "documents/GPU-064_catalogue_des_actions_de_l_agent_et_regles_d_autorisation.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "catalogue",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 7,
+    "elements": [
+      {
+        "element_id": "table_2_1",
+        "type": "table",
+        "page": 2,
+        "caption": "Tableau — Catalogue des actions de l'agent et règles d'autorisation"
+      },
+      {
+        "element_id": "figure_3_1",
+        "type": "figure",
+        "page": 3,
+        "caption": "Cycle d'une action autorisée"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : mise à jour des pilotes — Barre de progression de mise à jour dans GeForce Experience (successeur : NVIDIA App). (illustration générée par IA ; vignette « Update Drivers »)",
+        "image_id": "PNL-D12"
+      },
+      {
+        "element_id": "image_3_2",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : désinstaller puis réinstaller les pilotes — Corbeille puis logo NVIDIA : désinstaller, installer. (illustration générée par IA ; vignette « Reinstall Drivers »)",
+        "image_id": "PNL-D14"
+      },
+      {
+        "element_id": "image_3_3",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : vérifier les mises à jour Windows — Windows Update : système à jour. (illustration générée par IA ; vignette « Check for Windows Updates »)",
+        "image_id": "PNL-D19"
+      },
+      {
+        "element_id": "image_3_4",
+        "type": "image",
+        "page": 3,
+        "caption": "Autoriser l'agent à corriger le problème (Allow / Deny) — Boîte de dialogue : autoriser l'agent IA à corriger le problème GPU ? Boutons Allow et Deny. (illustration générée par IA ; vignette « Grant Permission to Agent »)",
+        "image_id": "PNL-D20"
+      },
+      {
+        "element_id": "table_6_1",
+        "type": "table",
+        "page": 6,
+        "caption": "Annexe A — Fiche de contrôle (GPU-064)"
+      },
+      {
+        "element_id": "table_7_1",
+        "type": "table",
+        "page": 7,
+        "caption": "Annexe B — Fiche de relevé (GPU-064)"
+      }
+    ],
+    "keywords": "actions;agent;autorisation;catalogue;act",
+    "image_ids": [
+      "PNL-D12",
+      "PNL-D14",
+      "PNL-D19",
+      "PNL-D20"
+    ]
+  },
+  {
+    "document_id": "GPU-065",
+    "title": "Guide de lecture des infographies sources et index des panneaux",
+    "file": "documents/GPU-065_guide_de_lecture_des_infographies_sources_et_index_des_panne.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "guide",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 8,
+    "elements": [
+      {
+        "element_id": "figure_3_1",
+        "type": "figure",
+        "page": 3,
+        "caption": "Chaîne d'utilisation d'un panneau"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Infographie « GPU Electrical Failures — Diagnosis & Solutions » : 12 pannes électriques (alimentation, composants brûlés, court-circuit, tension, connecteur, VRM, bruit, voyant, slot PCIe, ventilateur, capteur, pistes).",
+        "image_id": "SRC-A"
+      },
+      {
+        "element_id": "image_4_1",
+        "type": "image",
+        "page": 4,
+        "caption": "Grille de 16 vignettes de dépannage : pas de signal, GPU non détecté, surchauffe, artefacts, BSOD, pilote, jeux, alimentation, ventilateur, gestionnaire de périphériques, FPS, pâte thermique, BIOS, installation, solution, agent.",
+        "image_id": "SRC-B"
+      },
+      {
+        "element_id": "image_4_2",
+        "type": "image",
+        "page": 4,
+        "caption": "Infographie « GPU AI Troubleshooting Corpus » : 18 diagnostics (VRAM, PCB, liquide, slot PCIe, limite de puissance, DirectX, eGPU, HDR, firmware, flash BIOS, coil whine, BGA, roulement, throttling, conflits, accélération matérielle, crash, compatibilité OS).",
+        "image_id": "SRC-C"
+      },
+      {
+        "element_id": "image_5_1",
+        "type": "image",
+        "page": 5,
+        "caption": "Grille de 20 vignettes : symptômes (pas de signal, GPU non détecté, surchauffe, artefacts, timeout AMD, mises à jour, BSOD TDR, jeux, commutateur portable) et solutions (nettoyage, pilotes, alimentation, température, reseat, connexions, BIOS, Windows Update, autorisation de l'agent).",
+        "image_id": "SRC-D"
+      },
+      {
+        "element_id": "table_7_1",
+        "type": "table",
+        "page": 7,
+        "caption": "Annexe A — Fiche de contrôle (GPU-065)"
+      },
+      {
+        "element_id": "table_8_1",
+        "type": "table",
+        "page": 8,
+        "caption": "Annexe B — Fiche de relevé (GPU-065)"
+      }
+    ],
+    "keywords": "infographie;panneaux;index;images;illustrations",
+    "image_ids": [
+      "SRC-A",
+      "SRC-B",
+      "SRC-C",
+      "SRC-D"
+    ]
+  },
+  {
+    "document_id": "GPU-066",
+    "title": "Pannes électriques de la carte : composants brûlés, court-circuit, tension, VRM, bruit et pistes",
+    "file": "documents/GPU-066_pannes_electriques_de_la_carte_composants_brules_court_circu.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 6,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Pannes électriques de la carte : composants brûlés, court-circuit, tension, VRM, bruit et pistes"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Panne électrique interne : démarche"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Composants brûlés (MOSFET ou condensateur) — Carte électronique avec zone noircie et composants carbonisés. (illustration générée par IA ; vignette « Burnt Components »)",
+        "image_id": "PNL-A02"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Court-circuit sur le PCB — Zone entourée en rouge sur la carte : composants en court-circuit. (illustration générée par IA ; vignette « Short Circuit »)",
+        "image_id": "PNL-A03"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Surtension ou sous-tension du GPU — Relevé de tension GPU à 1,85 V (plage normale annoncée 0,95 à 1,10 V) : hors plage. Valeurs à confirmer sur la fiche du modèle. (illustration générée par IA ; vignette « Overvoltage / Undervoltage »)",
+        "image_id": "PNL-A04"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Défaillance du VRM (condensateur gonflé) — Condensateurs et bobines du VRM ; un condensateur gonflé est signalé. (illustration générée par IA ; vignette « VRM Failure »)",
+        "image_id": "PNL-A06"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Bruit électrique (ondulation de l'alimentation) — Oscillogramme vert d'une tension avec ondulation : ripple/bruit de l'alimentation. (illustration générée par IA ; vignette « Electrical Noise »)",
+        "image_id": "PNL-A07"
+      },
+      {
+        "element_id": "image_3_2",
+        "type": "image",
+        "page": 3,
+        "caption": "Pistes ou PCB endommagés — Gros plan d'un PCB avec pistes endommagées. (illustration générée par IA ; vignette « Traces / PCB Damage »)",
+        "image_id": "PNL-A12"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-066)"
+      },
+      {
+        "element_id": "table_6_1",
+        "type": "table",
+        "page": 6,
+        "caption": "Annexe B — Fiche de relevé (GPU-066)"
+      }
+    ],
+    "keywords": "composants brûlés;court-circuit;surtension;vrm;ripple;pcb",
+    "image_ids": [
+      "PNL-A02",
+      "PNL-A03",
+      "PNL-A04",
+      "PNL-A06",
+      "PNL-A07",
+      "PNL-A12"
+    ]
+  },
+  {
+    "document_id": "GPU-067",
+    "title": "Alimentation, connecteurs et voyants : alimentation insuffisante, voyant éteint, connecteur fondu, slot PCIe",
+    "file": "documents/GPU-067_alimentation_connecteurs_et_voyants_alimentation_insuffisant.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 6,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Alimentation, connecteurs et voyants : alimentation insuffisante, voyant éteint, connecteur fondu, slot PCIe"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Vérification de l'alimentation d'une carte"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Alimentation insuffisante ou instable — Bloc d'alimentation et câble PCIe jaune/noir ; légende : alimentation insuffisante ou instable. (illustration générée par IA ; vignette « Power Supply Issues »)",
+        "image_id": "PNL-A01"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Connecteur d'alimentation défectueux ou fondu — Connecteur PCIe à 8 broches avec plastique fondu et brûlé. (illustration générée par IA ; vignette « Power Connector Fault »)",
+        "image_id": "PNL-A05"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "GPU qui ne reçoit pas d'alimentation (voyant éteint) — Carte graphique avec voyant d'alimentation éteint ; légende : pas de voyant d'alimentation. (illustration générée par IA ; vignette « GPU Not Receiving Power »)",
+        "image_id": "PNL-A08"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Problème d'alimentation par le slot PCIe — Slot PCIe de la carte mère ; légende : problème d'alimentation du slot. (illustration générée par IA ; vignette « PCIe Power Delivery Issue »)",
+        "image_id": "PNL-A09"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Problème d'alimentation (connecteurs PCIe) — Deux connecteurs PCIe à 6/8 broches avec câbles jaunes et noirs. (illustration générée par IA ; vignette « Power Issue »)",
+        "image_id": "PNL-B08"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-067)"
+      },
+      {
+        "element_id": "table_6_1",
+        "type": "table",
+        "page": 6,
+        "caption": "Annexe B — Fiche de relevé (GPU-067)"
+      }
+    ],
+    "keywords": "alimentation;voyant;connecteur;pcie power;câble",
+    "image_ids": [
+      "PNL-A01",
+      "PNL-A05",
+      "PNL-A08",
+      "PNL-A09",
+      "PNL-B08"
+    ]
+  },
+  {
+    "document_id": "GPU-068",
+    "title": "Ventilateurs, bruits et capteurs : ventilateur à l'arrêt, roulement, sifflement, capteur thermique",
+    "file": "documents/GPU-068_ventilateurs_bruits_et_capteurs_ventilateur_a_l_arret_roulem.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Ventilateurs, bruits et capteurs : ventilateur à l'arrêt, roulement, sifflement, capteur thermique"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Panne électrique du ventilateur — Ventilateur de carte graphique qui ne tourne pas : défaut électrique. (illustration générée par IA ; vignette « Fan Electrical Failure »)",
+        "image_id": "PNL-A10"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Erreur de capteur thermique (120 °C affichés) — Affichage de 120 °C (critique) ; légende : défaut de capteur. Une valeur aberrante peut venir du capteur ou de l'outil de suivi. (illustration générée par IA ; vignette « Thermal Sensor Error »)",
+        "image_id": "PNL-A11"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Ventilateur à l'arrêt — Ventilateurs de carte graphique avec icône de haut-parleur barré. (illustration générée par IA ; vignette « Fan Not Spinning »)",
+        "image_id": "PNL-B09"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Sifflement des bobines et bruit — Ventilateur et ondes sonores rouges : sifflement. (illustration générée par IA ; vignette « Coil Whine & Noise »)",
+        "image_id": "PNL-C11"
+      },
+      {
+        "element_id": "image_2_5",
+        "type": "image",
+        "page": 2,
+        "caption": "Roulement de ventilateur défaillant — Ventilateur avec roulement usé : rotation irrégulière. (illustration générée par IA ; vignette « GPU Fan Bearing Failure »)",
+        "image_id": "PNL-C13"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-068)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-068)"
+      }
+    ],
+    "keywords": "ventilateur;roulement;coil whine;capteur thermique;bruit",
+    "image_ids": [
+      "PNL-A10",
+      "PNL-A11",
+      "PNL-B09",
+      "PNL-C11",
+      "PNL-C13"
+    ]
+  },
+  {
+    "document_id": "GPU-069",
+    "title": "Surchauffe, poussière, pâte thermique et bridage thermique",
+    "file": "documents/GPU-069_surchauffe_poussiere_pate_thermique_et_bridage_thermique.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Surchauffe, poussière, pâte thermique et bridage thermique"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Surchauffe et poussière (92 °C) — Carte graphique empoussiérée, thermomètre à 92 °C. (illustration générée par IA ; vignette « Overheating / Dust »)",
+        "image_id": "PNL-B03"
+      },
+      {
+        "element_id": "image_1_2",
+        "type": "image",
+        "page": 1,
+        "caption": "Problème de pâte thermique — Puce de GPU avec pâte thermique visible. (illustration générée par IA ; vignette « Thermal Paste Issue »)",
+        "image_id": "PNL-B12"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Bridage thermique (92 °C) — Température 92 °C et fréquence réduite (throttle actif). (illustration générée par IA ; vignette « GPU Thermal Throttling »)",
+        "image_id": "PNL-C14"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Surchauffe du GPU (95 °C) — Carte graphique et thermomètre à 95 °C. (illustration générée par IA ; vignette « GPU Overheating »)",
+        "image_id": "PNL-D03"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-069)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-069)"
+      }
+    ],
+    "keywords": "surchauffe;poussière;pâte thermique;throttling;92°C;95°C",
+    "image_ids": [
+      "PNL-B03",
+      "PNL-B12",
+      "PNL-C14",
+      "PNL-D03"
+    ]
+  },
+  {
+    "document_id": "GPU-070",
+    "title": "Dommages physiques graves : PCB, liquide, slot PCIe, BGA de portable et mémoire VRAM",
+    "file": "documents/GPU-070_dommages_physiques_graves_pcb_liquide_slot_pcie_bga_de_porta.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Dommages physiques graves : PCB, liquide, slot PCIe, BGA de portable et mémoire VRAM"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Corruption de la mémoire VRAM — Résultat de test mémoire : erreurs VRAM détectées, valeur attendue différente de la valeur lue. (illustration générée par IA ; vignette « VRAM Memory Corruption »)",
+        "image_id": "PNL-C01"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Dommage physique du PCB (composants brûlés) — Gros plan d'un PCB avec zone brûlée. (illustration générée par IA ; vignette « GPU PCB Physical Damage »)",
+        "image_id": "PNL-C02"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Dégât des liquides et corrosion — Circuit avec dépôts de corrosion verts/bleus. (illustration générée par IA ; vignette « Liquid Damage & Corrosion »)",
+        "image_id": "PNL-C03"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Slot PCIe endommagé — Slot PCIe avec verrou et contacts abîmés. (illustration générée par IA ; vignette « PCIe Slot Damage »)",
+        "image_id": "PNL-C04"
+      },
+      {
+        "element_id": "image_2_5",
+        "type": "image",
+        "page": 2,
+        "caption": "Défaillance BGA du GPU de portable — Puce BGA soudée sur la carte mère d'un portable. (illustration générée par IA ; vignette « Laptop GPU BGA Failure »)",
+        "image_id": "PNL-C12"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-070)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-070)"
+      }
+    ],
+    "keywords": "dommage;liquide;corrosion;bga;vram;slot pcie",
+    "image_ids": [
+      "PNL-C01",
+      "PNL-C02",
+      "PNL-C03",
+      "PNL-C04",
+      "PNL-C12"
+    ]
+  },
+  {
+    "document_id": "GPU-071",
+    "title": "Pas de signal et GPU non détecté : écran, Gestionnaire de périphériques et BIOS",
+    "file": "documents/GPU-071_pas_de_signal_et_gpu_non_detecte_ecran_gestionnaire_de_perip.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Pas de signal et GPU non détecté : écran, Gestionnaire de périphériques et BIOS"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Arbre : pas de signal ou GPU non détecté"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Pas de signal (portable) — Portable avec écran noir et message No Signal. (illustration générée par IA ; vignette « No Signal »)",
+        "image_id": "PNL-B01"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "GPU non détecté (message NVIDIA) — Fenêtre indiquant que le GPU NVIDIA GeForce n'est pas détecté et demande de vérifier l'installation. (illustration générée par IA ; vignette « GPU Not Detected »)",
+        "image_id": "PNL-B02"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Gestionnaire de périphériques : alerte sur la carte — Gestionnaire de périphériques : NVIDIA GeForce RTX 3060 avec triangle d'avertissement. (illustration générée par IA ; vignette « Device Manager »)",
+        "image_id": "PNL-B10"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Réglages du BIOS (affichage principal, iGPU multi-écran) — Écran du BIOS : Primary Display [Auto] et iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « BIOS Settings »)",
+        "image_id": "PNL-B13"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Pas de signal / écran noir (moniteur) — Moniteur noir avec triangle d'alerte et message No Signal. (illustration générée par IA ; vignette « No Signal / Black Screen »)",
+        "image_id": "PNL-D01"
+      },
+      {
+        "element_id": "image_3_2",
+        "type": "image",
+        "page": 3,
+        "caption": "GPU non détecté dans le Gestionnaire de périphériques — Gestionnaire de périphériques : aucun GPU NVIDIA détecté. (illustration générée par IA ; vignette « GPU Not Detected »)",
+        "image_id": "PNL-D02"
+      },
+      {
+        "element_id": "image_3_3",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : activer le GPU dédié dans le BIOS — BIOS : Discrete GPU [Enabled], iGPU Multi-Monitor [Enabled]. (illustration générée par IA ; vignette « Enable GPU in BIOS »)",
+        "image_id": "PNL-D18"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-071)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-071)"
+      }
+    ],
+    "keywords": "pas de signal;gpu non détecté;gestionnaire de périphériques;bios;primary display",
+    "image_ids": [
+      "PNL-B01",
+      "PNL-B02",
+      "PNL-B10",
+      "PNL-B13",
+      "PNL-D01",
+      "PNL-D02",
+      "PNL-D18"
+    ]
+  },
+  {
+    "document_id": "GPU-072",
+    "title": "Artefacts, scintillement et HDR : lecture des images et premiers tests",
+    "file": "documents/GPU-072_artefacts_scintillement_et_hdr_lecture_des_images_et_premier.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Artefacts, scintillement et HDR : lecture des images et premiers tests"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Artefacts graphiques — Écran avec bandes horizontales colorées. (illustration générée par IA ; vignette « Graphics Artifacts »)",
+        "image_id": "PNL-B04"
+      },
+      {
+        "element_id": "image_1_2",
+        "type": "image",
+        "page": 1,
+        "caption": "Scintillement d'écran et HDR — Moniteur avec bandes de scintillement. (illustration générée par IA ; vignette « Display Flickering & HDR »)",
+        "image_id": "PNL-C08"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Artefacts dans un jeu — Jeu avec blocs et pixels colorés corrompus. (illustration générée par IA ; vignette « Artifact / Glitching »)",
+        "image_id": "PNL-D04"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-072)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-072)"
+      }
+    ],
+    "keywords": "artefacts;scintillement;hdr;vrr;glitch",
+    "image_ids": [
+      "PNL-B04",
+      "PNL-C08",
+      "PNL-D04"
+    ]
+  },
+  {
+    "document_id": "GPU-073",
+    "title": "Pilotes : installation, mise à jour, conflits, compatibilité Windows et réinstallation",
+    "file": "documents/GPU-073_pilotes_installation_mise_a_jour_conflits_compatibilite_wind.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 6,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Pilotes : installation, mise à jour, conflits, compatibilité Windows et réinstallation"
+      },
+      {
+        "element_id": "figure_2_1",
+        "type": "figure",
+        "page": 2,
+        "caption": "Plan de correction pilote (avec autorisation)"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Erreur de pilote : incompatible avec cette version de Windows — Message indiquant que le pilote NVIDIA n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « Driver Error »)",
+        "image_id": "PNL-B06"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Échec d'installation du paquet — Message d'échec : le paquet d'installation n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+        "image_id": "PNL-B14"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Conflit de pilotes (NVIDIA et AMD) — Gestionnaire de périphériques : RTX 4070 avec avertissement de pilotes en conflit, et Radeon RX 7800 XT. (illustration générée par IA ; vignette « Driver Conflicts »)",
+        "image_id": "PNL-C15"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Compatibilité du système d'exploitation — Message : ce GPU n'est pas compatible avec cette version de Windows. (illustration générée par IA ; vignette « OS Compatibility »)",
+        "image_id": "PNL-C18"
+      },
+      {
+        "element_id": "image_3_1",
+        "type": "image",
+        "page": 3,
+        "caption": "Mise à jour du pilote disponible — Notification NVIDIA : un nouveau pilote est disponible. (illustration générée par IA ; vignette « Update Needed »)",
+        "image_id": "PNL-D06"
+      },
+      {
+        "element_id": "image_3_2",
+        "type": "image",
+        "page": 3,
+        "caption": "Échec d'installation du pilote — Message : le pilote n'a pas pu être installé. (illustration générée par IA ; vignette « Installation Error »)",
+        "image_id": "PNL-D07"
+      },
+      {
+        "element_id": "image_3_3",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : mise à jour des pilotes — Barre de progression de mise à jour dans GeForce Experience (successeur : NVIDIA App). (illustration générée par IA ; vignette « Update Drivers »)",
+        "image_id": "PNL-D12"
+      },
+      {
+        "element_id": "image_3_4",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : désinstaller puis réinstaller les pilotes — Corbeille puis logo NVIDIA : désinstaller, installer. (illustration générée par IA ; vignette « Reinstall Drivers »)",
+        "image_id": "PNL-D14"
+      },
+      {
+        "element_id": "image_3_5",
+        "type": "image",
+        "page": 3,
+        "caption": "Solution : vérifier les mises à jour Windows — Windows Update : système à jour. (illustration générée par IA ; vignette « Check for Windows Updates »)",
+        "image_id": "PNL-D19"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-073)"
+      },
+      {
+        "element_id": "table_6_1",
+        "type": "table",
+        "page": 6,
+        "caption": "Annexe B — Fiche de relevé (GPU-073)"
+      }
+    ],
+    "keywords": "pilote;installation;mise à jour;conflit;compatibilité windows;ddu",
+    "image_ids": [
+      "PNL-B06",
+      "PNL-B14",
+      "PNL-C15",
+      "PNL-C18",
+      "PNL-D06",
+      "PNL-D07",
+      "PNL-D12",
+      "PNL-D14",
+      "PNL-D19"
+    ]
+  },
+  {
+    "document_id": "GPU-074",
+    "title": "Plantages : écran bleu VIDEO_TDR_FAILURE, délai du pilote, erreurs DirectX et crashs d'applications",
+    "file": "documents/GPU-074_plantages_ecran_bleu_video_tdr_failure_delai_du_pilote_erreu.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Plantages : écran bleu VIDEO_TDR_FAILURE, délai du pilote, erreurs DirectX et crashs d'applications"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Écran bleu (BSOD) — Écran bleu Windows avec smiley triste et code QR. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+        "image_id": "PNL-B05"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Erreur d'API (DirectX) — Message DirectX : erreur irrécupérable. (illustration générée par IA ; vignette « API Errors »)",
+        "image_id": "PNL-C06"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Plantage d'application (Unreal Engine 5) — Message de plantage inattendu d'une application Unreal Engine 5. (illustration générée par IA ; vignette « GPU Application Crashes »)",
+        "image_id": "PNL-C17"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Écran bleu VIDEO_TDR_FAILURE — Écran bleu avec le code d'arrêt VIDEO_TDR_FAILURE. (illustration générée par IA ; vignette « Blue Screen (BSOD) »)",
+        "image_id": "PNL-D08"
+      },
+      {
+        "element_id": "image_2_5",
+        "type": "image",
+        "page": 2,
+        "caption": "Pilote AMD : délai d'expiration — AMD Software : Driver Timeout, le pilote a cessé de répondre. (illustration générée par IA ; vignette « Driver Issue »)",
+        "image_id": "PNL-D05"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe A — Fiche de contrôle (GPU-074)"
+      },
+      {
+        "element_id": "table_5_2",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-074)"
+      }
+    ],
+    "keywords": "bsod;video_tdr_failure;directx;crash;driver timeout",
+    "image_ids": [
+      "PNL-B05",
+      "PNL-C06",
+      "PNL-C17",
+      "PNL-D08",
+      "PNL-D05"
+    ]
+  },
+  {
+    "document_id": "GPU-075",
+    "title": "GPU inutilisé, FPS bas, accélération matérielle et limites de puissance",
+    "file": "documents/GPU-075_gpu_inutilise_fps_bas_acceleration_materielle_et_limites_de_.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 4,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — GPU inutilisé, FPS bas, accélération matérielle et limites de puissance"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "GPU inutilisé dans les jeux (0 %) — Moniteur de ressources : utilisation GPU 0 % et mémoire 0 Mo. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+        "image_id": "PNL-B07"
+      },
+      {
+        "element_id": "image_1_2",
+        "type": "image",
+        "page": 1,
+        "caption": "FPS bas et performances faibles — Jeu à 15 images par seconde. (illustration générée par IA ; vignette « Low FPS / Poor Performance »)",
+        "image_id": "PNL-B11"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Limite de puissance et fréquences instables — Relevé : GPU 210 MHz, mémoire 405 MHz, limite de puissance 57 % : bridage de puissance. (illustration générée par IA ; vignette « Power Limit & Unstable Clocks »)",
+        "image_id": "PNL-C05"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Accélération matérielle désactivée ou indisponible — Réglage d'accélération matérielle sur Off avec message d'indisponibilité. (illustration générée par IA ; vignette « Hardware Acceleration »)",
+        "image_id": "PNL-C16"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "GPU inutilisé en jeu (FPS 0) — Jeu avec FPS à 0 et flèche vers le bas. (illustration générée par IA ; vignette « GPU Not Working in Games »)",
+        "image_id": "PNL-D09"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-075)"
+      },
+      {
+        "element_id": "table_4_2",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe B — Fiche de relevé (GPU-075)"
+      }
+    ],
+    "keywords": "fps;gpu 0%;accélération matérielle;power limit;performances",
+    "image_ids": [
+      "PNL-B07",
+      "PNL-B11",
+      "PNL-C05",
+      "PNL-C16",
+      "PNL-D09"
+    ]
+  },
+  {
+    "document_id": "GPU-076",
+    "title": "Firmware du GPU (VBIOS) : corruption et échec de flash",
+    "file": "documents/GPU-076_firmware_du_gpu_vbios_corruption_et_echec_de_flash.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Firmware du GPU (VBIOS) : corruption et échec de flash"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Corruption du firmware (VBIOS) du GPU — Message : le firmware du GPU est corrompu, mettre à jour le VBIOS. (illustration générée par IA ; vignette « GPU Firmware Corruption »)",
+        "image_id": "PNL-C09"
+      },
+      {
+        "element_id": "image_1_2",
+        "type": "image",
+        "page": 1,
+        "caption": "Échec de flash du BIOS de la carte — Utilitaire de mise à jour : échec avec le code 0x0003. (illustration générée par IA ; vignette « BIOS Flashing Failure »)",
+        "image_id": "PNL-C10"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-076)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-076)"
+      }
+    ],
+    "keywords": "vbios;firmware;flash;bios gpu;double bios",
+    "image_ids": [
+      "PNL-C09",
+      "PNL-C10"
+    ]
+  },
+  {
+    "document_id": "GPU-077",
+    "title": "GPU externe Thunderbolt (eGPU) et commutateur de GPU des portables",
+    "file": "documents/GPU-077_gpu_externe_thunderbolt_egpu_et_commutateur_de_gpu_des_porta.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 3,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — GPU externe Thunderbolt (eGPU) et commutateur de GPU des portables"
+      },
+      {
+        "element_id": "image_1_1",
+        "type": "image",
+        "page": 1,
+        "caption": "Problèmes de GPU externe Thunderbolt — Câble Thunderbolt et message : périphérique Thunderbolt non reconnu. (illustration générée par IA ; vignette « eGPU Thunderbolt Issues »)",
+        "image_id": "PNL-C07"
+      },
+      {
+        "element_id": "image_1_2",
+        "type": "image",
+        "page": 1,
+        "caption": "Commutateur de GPU du portable (touche Fn) — Clavier de portable avec touche de basculement d'affichage entourée en rouge. (illustration générée par IA ; vignette « Laptop GPU Switch »)",
+        "image_id": "PNL-D10"
+      },
+      {
+        "element_id": "table_3_1",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe A — Fiche de contrôle (GPU-077)"
+      },
+      {
+        "element_id": "table_3_2",
+        "type": "table",
+        "page": 3,
+        "caption": "Annexe B — Fiche de relevé (GPU-077)"
+      }
+    ],
+    "keywords": "egpu;thunderbolt;portable;touche fn;mux",
+    "image_ids": [
+      "PNL-C07",
+      "PNL-D10"
+    ]
+  },
+  {
+    "document_id": "GPU-078",
+    "title": "Solutions illustrées : nettoyage, vérification des connexions et de la température, réinsertion",
+    "file": "documents/GPU-078_solutions_illustrees_nettoyage_verification_des_connexions_e.pdf",
+    "version": "1.0",
+    "equipment_family": "GENERIQUE_GPU",
+    "doc_type": "procedure",
+    "access_groups": [
+      "techniciens",
+      "responsables"
+    ],
+    "pages": 5,
+    "elements": [
+      {
+        "element_id": "table_1_1",
+        "type": "table",
+        "page": 1,
+        "caption": "Tableau — Solutions illustrées : nettoyage, vérification des connexions et de la température, réinsertion"
+      },
+      {
+        "element_id": "figure_1_1",
+        "type": "figure",
+        "page": 1,
+        "caption": "Solutions de base dans l'ordre"
+      },
+      {
+        "element_id": "image_2_1",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : nettoyer et vérifier — Carte graphique propre avec coche verte. (illustration générée par IA ; vignette « Solution: Clean & Check »)",
+        "image_id": "PNL-B15"
+      },
+      {
+        "element_id": "image_2_2",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : nettoyage de la poussière — Nettoyage d'un ventilateur de carte au pinceau. (illustration générée par IA ; vignette « Cleaning Solution »)",
+        "image_id": "PNL-D11"
+      },
+      {
+        "element_id": "image_2_3",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : vérifier l'alimentation — Connecteurs d'alimentation PCIe jaunes et noirs. (illustration générée par IA ; vignette « Check Power Supply »)",
+        "image_id": "PNL-D13"
+      },
+      {
+        "element_id": "image_2_4",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : vérifier la température (65 °C) — Température GPU de 65 °C avec coche verte. (illustration générée par IA ; vignette « Check Temperature »)",
+        "image_id": "PNL-D15"
+      },
+      {
+        "element_id": "image_2_5",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : réinsérer la carte (reseat) ; le reflow est exclu — Main qui insère une carte dans le slot PCIe. Le reflow (chauffage) n'est pas une opération autorisée. (illustration générée par IA ; vignette « Reflow / Reseat GPU »)",
+        "image_id": "PNL-D16"
+      },
+      {
+        "element_id": "image_2_6",
+        "type": "image",
+        "page": 2,
+        "caption": "Solution : vérifier les connexions — Intérieur de boîtier avec un câble entouré en rouge. (illustration générée par IA ; vignette « Check Connections »)",
+        "image_id": "PNL-D17"
+      },
+      {
+        "element_id": "table_4_1",
+        "type": "table",
+        "page": 4,
+        "caption": "Annexe A — Fiche de contrôle (GPU-078)"
+      },
+      {
+        "element_id": "table_5_1",
+        "type": "table",
+        "page": 5,
+        "caption": "Annexe B — Fiche de relevé (GPU-078)"
+      }
+    ],
+    "keywords": "nettoyage;reseat;reflow;vérification;solutions",
+    "image_ids": [
+      "PNL-B15",
+      "PNL-D11",
+      "PNL-D13",
+      "PNL-D15",
+      "PNL-D16",
+      "PNL-D17"
+    ]
+  }
+]
